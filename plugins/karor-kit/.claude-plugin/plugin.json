@@ -1,0 +1,12 @@
+{
+  "name": "karor-kit",
+  "displayName": "Karor Kit",
+  "version": "0.1.0",
+  "description": "Wspólny kit do gamedevu w Godocie: skille, zasady workflow, definicje subagentów i Linear MCP",
+  "author": {
+    "name": "Karol",
+    "url": "https://github.com/karolkrzych"
+  },
+  "repository": "https://github.com/karolkrzych/karor-kit",
+  "mcpServers": "./.mcp.json"
+}

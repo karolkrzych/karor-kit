@@ -1,0 +1,14 @@
+{
+  "name": "karor-kit",
+  "owner": {
+    "name": "Karol",
+    "url": "https://github.com/karolkrzych"
+  },
+  "plugins": [
+    {
+      "name": "karor-kit",
+      "source": "./plugins/karor-kit",
+      "description": "Wspólny kit do gamedevu: skille, zasady workflow, agenci, Linear MCP"
+    }
+  ]
+}
