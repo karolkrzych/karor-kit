@@ -50,3 +50,15 @@ Explicitly excluded things an agent might be tempted to do.
 An implementer agent with zero conversation context must be able to complete it
 without asking a single question. If you can imagine the question, the answer
 belongs in the ticket.
+
+## Cost (appended by `implement` when closing out)
+
+Appended to the END of the issue body — one line per dispatch, success or fail, retries included; token counts come from the harness usage report:
+
+```markdown
+## Cost
+- YYYY-MM-DD m:<model> — <N> tokens (dispatch)
+- YYYY-MM-DD m:<model> — <N> tokens (retry)
+```
+
+Basis for periodic (~biweekly) cost review across the board.
