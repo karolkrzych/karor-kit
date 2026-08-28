@@ -16,8 +16,8 @@ Model priority: explicit arg > `m:` label > sonnet. `m:fable` -> not dispatched;
 3. Claim before dispatch: assign the caller + move to In Progress (skip whatever is already set). Dispatch `implementer` with chosen model.
 4. Report back -> read diff yourself. Check: hard-rule violations (scope creep, sim/presentation leak, new deps), tests assert behavior (not smoke theater), "surprises" -> investigate.
 5. Verdict:
-   - OK -> PR/merge per repo convention, issue -> Done, post-merge comment per template + append `## Cost` section to issue body (format in template): one line per dispatch, model + tokens.
+   - OK -> PR/merge per repo convention, issue -> Done, post-merge comment per template + append `## Cost` section to issue body (format in template): one line per dispatch, model + tokens, plus one `(orchestration)` line for the orchestrator session (fable).
    - Fixable -> back to agent ONCE with precise correction list.
    - Failed twice -> stop, summarize. Two fails = ticket or architecture wrong, not agent.
 
-Rules: one dispatch per ticket at a time. Scope never widens in review; new needs -> new linked ticket via `create-issue`. Every dispatch's model + token usage (from the harness usage report) gets logged to the issue `## Cost` section — success or fail, retries included.
+Rules: one dispatch per ticket at a time. Scope never widens in review; new needs -> new linked ticket via `create-issue`. Every dispatch's model + token usage (from the harness usage report) gets logged to the issue `## Cost` section — success or fail, retries included — plus the orchestrator session's own tokens (fable) as an `(orchestration)` line. Cost is written ONCE, at full close-out of the implement session — never mid-work.

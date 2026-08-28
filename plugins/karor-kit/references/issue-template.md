@@ -53,12 +53,13 @@ belongs in the ticket.
 
 ## Cost (appended by `implement` when closing out)
 
-Appended to the END of the issue body — one line per dispatch, success or fail, retries included; token counts come from the harness usage report:
+Appended to the END of the issue body, ONCE, when the implement session fully closes out (never mid-work) — one line per dispatch, success or fail, retries included, plus one line for the orchestrator session (fable); token counts come from the harness usage report:
 
 ```markdown
 ## Cost
 - YYYY-MM-DD m:<model> — <N> tokens (dispatch)
 - YYYY-MM-DD m:<model> — <N> tokens (retry)
+- YYYY-MM-DD m:fable — <N> tokens (orchestration)
 ```
 
 Basis for periodic (~biweekly) cost review across the board.
