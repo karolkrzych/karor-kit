@@ -43,3 +43,4 @@ irreversible-action confirmations.
 ## Growth
 
 Rules 7+ only via `retro`, earned by real incidents. Unenforced rule worse than none.
+Friction hit mid-work -> append an entry to Linear doc "[kit] Retro inbox" IMMEDIATELY (format inside the doc); `retro` consumes it.

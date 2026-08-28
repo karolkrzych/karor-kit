@@ -35,6 +35,10 @@ Explicitly excluded things an agent might be tempted to do.
 ## Metadata conventions
 
 - **Estimate**: 1 = trivial, 2 = normal, 3 = needs thought. Anything you'd call 5+ → split it.
+- **Priority**: ALWAYS set on creation — AI proposes, humans override. Maps to build order:
+  1 Urgent = take this FIRST (tracer bullet / unblocks everything) | 2 High = foundation, no blockers, start anytime |
+  3 Medium = second wave (unblocked once foundations merge) | 4 Low = later waves.
+  Board views order by priority — board position must reflect build order. Never leave "No priority".
 - **Labels**: `content` | `system` | `ui` | `tooling` | `bug` | `docs`
 - **Suggested model** (label): `m:sonnet` (default, may be omitted) | `m:opus` | `m:fable`
   (fable = human + orchestrator session, not delegated)
@@ -46,3 +50,15 @@ Explicitly excluded things an agent might be tempted to do.
 An implementer agent with zero conversation context must be able to complete it
 without asking a single question. If you can imagine the question, the answer
 belongs in the ticket.
+
+## Cost (appended by `implement` when closing out)
+
+Appended to the END of the issue body — one line per dispatch, success or fail, retries included; token counts come from the harness usage report:
+
+```markdown
+## Cost
+- YYYY-MM-DD m:<model> — <N> tokens (dispatch)
+- YYYY-MM-DD m:<model> — <N> tokens (retry)
+```
+
+Basis for periodic (~biweekly) cost review across the board.
