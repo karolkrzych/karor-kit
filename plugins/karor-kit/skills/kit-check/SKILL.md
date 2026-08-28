@@ -11,7 +11,8 @@ Wykonaj po kolei:
 
 1. **Potwierdź**, że skill się załadował — napisz krótko, że kit działa.
 2. **Wersja pluginu** — spróbuj odczytać `${CLAUDE_PLUGIN_ROOT}/.claude-plugin/plugin.json` i wypisać z niego pole `version`. Jeśli zmienna `CLAUDE_PLUGIN_ROOT` nie rozwiązuje się do realnej ścieżki, po prostu napisz, że zmienna nie była ustawiona — to nie jest błąd, bo samo załadowanie się skilla już potwierdza, że plugin działa.
-3. **Zawartość kitu** — wypisz krótko, co plugin obecnie zawiera:
-   - skille: `kit-check`
-   - serwery MCP: `linear`
+3. **Zawartość kitu** — wypisz krótko, co plugin obecnie zawiera, odczytując to dynamicznie (nie z pamięci):
+   - skille: wylistuj podkatalogi `${CLAUDE_PLUGIN_ROOT}/skills/` — każdy to jeden skill
+   - agenci: wylistuj pliki w `${CLAUDE_PLUGIN_ROOT}/agents/`
+   - serwery MCP: odczytaj nazwy kluczy z `${CLAUDE_PLUGIN_ROOT}/.mcp.json`
 4. **Widoczność narzędzi MCP** — sprawdź, czy w bieżącej sesji widoczne są jakiekolwiek narzędzia pasujące do `mcp__linear__*` lub `mcp__plugin_karor-kit_linear__*`. Zgłoś tylko wynik tak/nie — nie wywołuj tych narzędzi.
