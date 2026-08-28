@@ -44,3 +44,9 @@ irreversible-action confirmations.
 
 Rules 7+ only via `retro`, earned by real incidents. Unenforced rule worse than none.
 Friction hit mid-work -> append an entry to Linear doc "[kit] Retro inbox" IMMEDIATELY (format inside the doc); `retro` consumes it.
+
+## Session start
+
+Fresh session in a game repo: this file IS the init — no ritual needed.
+Unsure what to take -> list free tickets (Todo, unassigned) by priority, suggest top. Work a ticket -> `/karor-kit:implement <id>`.
+Planning, refinement, retro -> orchestration workspace sessions, not game-repo sessions.
