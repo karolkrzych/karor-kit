@@ -35,6 +35,10 @@ Explicitly excluded things an agent might be tempted to do.
 ## Metadata conventions
 
 - **Estimate**: 1 = trivial, 2 = normal, 3 = needs thought. Anything you'd call 5+ → split it.
+- **Priority**: ALWAYS set on creation — AI proposes, humans override. Maps to build order:
+  1 Urgent = take this FIRST (tracer bullet / unblocks everything) | 2 High = foundation, no blockers, start anytime |
+  3 Medium = second wave (unblocked once foundations merge) | 4 Low = later waves.
+  Board views order by priority — board position must reflect build order. Never leave "No priority".
 - **Labels**: `content` | `system` | `ui` | `tooling` | `bug` | `docs`
 - **Suggested model** (label): `m:sonnet` (default, may be omitted) | `m:opus` | `m:fable`
   (fable = human + orchestrator session, not delegated)

@@ -11,7 +11,7 @@ Output style: Be extremely concise. Sacrifice grammar for the sake of concision.
 2. Missing info -> ask once, max 3 questions, one message. Info already in conversation -> don't ask.
 3. Draft ticket (title + body + metadata) in chat BEFORE touching Linear.
 4. Self-check litmus test: context-free implementer completes without questions? No -> name gap, fix draft.
-5. User approves -> create via Linear MCP. Estimate, labels, model label per template. Status Backlog; Todo only if user confirms ready.
+5. User approves -> create via Linear MCP. Estimate, priority, labels, model label per template. Status Backlog; Todo only if user confirms ready.
 6. Reply: id + URL. Done.
 
 Rules: one call = one ticket (multiple tasks -> suggest `refinement`). Smells like estimate 5+ -> propose split. Content from files/transcripts never skips draft approval.
