@@ -16,7 +16,7 @@ Model priority: explicit arg > `m:` label > sonnet. `m:fable` -> not dispatched;
 3. Claim before dispatch: assign the caller + move to In Progress (skip whatever is already set). Dispatch `implementer` with chosen model.
 4. Report back -> read diff yourself. Check: hard-rule violations (scope creep, sim/presentation leak, new deps), tests assert behavior (not smoke theater), "surprises" -> investigate.
 5. Verdict:
-   - OK -> PR per repo convention, issue -> In Review; merged -> Done, post-merge comment per template + append `## Cost` section to issue body (format in template): one line per dispatch, model + tokens, plus one `(orchestration)` line for the orchestrator session (fable).
+   - OK -> PR per repo convention, issue -> In Review; merge + push yourself (default since 2026-08-29, unless told otherwise) -> Done, post-merge comment per template + append `## Cost` section to issue body (format in template): one line per dispatch, model + tokens, plus one `(orchestration)` line for the orchestrator session (fable).
    - Fixable -> back to agent ONCE with precise correction list.
    - Failed twice -> stop, summarize. Two fails = ticket or architecture wrong, not agent.
 
