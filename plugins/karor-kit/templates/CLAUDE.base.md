@@ -38,7 +38,8 @@ irreversible-action confirmations.
 ## Skill map
 
 `refinement` text->tickets | `grill` interrogate->implementable | `create-issue` one ticket |
-`implement <id> [model]` dispatch | `retro` friction->kit changes | `project-init` new repo
+`implement <id> [model]` dispatch | `batch-implement <ids…>` wave-parallel implements |
+`retro` friction->kit changes | `project-init` new repo
 
 ## Growth
 

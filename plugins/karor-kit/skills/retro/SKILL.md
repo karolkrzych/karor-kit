@@ -15,4 +15,4 @@ Output style: Be extremely concise. Sacrifice grammar for the sake of concision.
 4. Approval -> apply to kit repo (base CLAUDE, skills, references), commit `retro: <summary>`, bump plugin version.
 5. End: 3-line changelog for teammate.
 
-Rules: max 3 changes per retro. Every rule cites its incident in commit. Agents asking questions / scope stops = ticket-quality problem -> fix template or grill/refinement, not implementer rules. Consumed inbox entries -> move to the doc's "Przetworzone" section with the outcome.
+Rules: max 3 changes per retro. Every rule cites its incident in commit. Agents asking questions / scope stops = ticket-quality problem -> fix template or grill/refinement, not implementer rules. Consumed inbox entries -> move with the outcome to Linear doc "[kit] Retro — archiwum" (https://linear.app/karor/document/kit-retro-archiwum-be00fc053814; newest retro on top). Inbox keeps ONLY unprocessed.

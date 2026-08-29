@@ -10,9 +10,9 @@ Empty dir -> kit-compliant repo. Ask once: slug + 1-line pitch. Show plan as sho
 Output style: Be extremely concise. Sacrifice grammar for the sake of concision. Plan list -> silent work -> finish report.
 
 1. **Skeleton**: `git init` (branch `main`), Godot `.gitignore`, layout:
-   `CLAUDE.md` | `docs/` (`plan.md` seeded from pitch, `decisions.md` empty; `adr/` lazy) | `game/` (`project.godot`, `sim/` logic, `scenes/` presentation) | `tests/`
+   `CLAUDE.md` | `docs/` (`plan.md` seeded from pitch, `decisions.md` empty; `adr/` lazy) | `game/` (`project.godot`, `sim/` logic, `scenes/` presentation, `tests/`). Tests INSIDE `game/` — Godot resolves only `res://`.
 2. **CLAUDE.md**: copy `${CLAUDE_PLUGIN_ROOT}/templates/CLAUDE.base.md` VERBATIM (iron rules never edited per-project) + append project section: name, pitch, test command, dir map, Linear URL. Whole file = one screen-scroll; fat knowledge -> `docs/`.
-3. **Godot + tests**: minimal `project.godot` (2D defaults) if absent. Install gdUnit4 into `addons/` — the ONE sanctioned dep (rest still needs approval, hard rule 4). Trivial smoke test, verify green headless. Record exact test command in CLAUDE.md (`implement` briefs quote it).
+3. **Godot + tests**: minimal `project.godot` (2D defaults) if absent. Install gdUnit4 into `game/addons/` — the ONE sanctioned dep (rest still needs approval, hard rule 4). Vendor runtime only: sparse-checkout EXCLUDING upstream `test/` (full clone dies on Windows MAX_PATH: "Filename too long"). Trivial smoke test, verify green headless — CLI requires `--ignoreHeadlessMode` (else "Headless mode is not supported!", exit 103). Record in CLAUDE.md, side by side: import step `godot --headless --path game --import` (run after ANY change to the global `class_name` set — fresh checkout, merge; cache lives in gitignored `.godot/`) + exact test command (`implement` briefs quote both).
 4. **Linear** (confirm before creating): project named after slug (ask team/initiative if ambiguous). First issue per `${CLAUDE_PLUGIN_ROOT}/references/issue-template.md`: tracer bullet — smallest end-to-end change proving the loop ("square moves with arrows; test asserts position changes"). Status Todo. URLs into CLAUDE.md + plan.md.
 5. **Report**: created what, test command, tracer id, literal next step: `/karor-kit:implement <tracer-id>`.
 
