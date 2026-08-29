@@ -39,7 +39,7 @@ irreversible-action confirmations.
 
 `refinement` text->tickets | `grill` interrogate->implementable | `create-issue` one ticket |
 `implement <id> [model]` dispatch | `batch-implement <ids…>` wave-parallel implements |
-`retro` friction->kit changes | `project-init` new repo
+`retro` friction->kit changes | `project-init` new repo | `digest` dump->tidy notes
 
 ## Growth
 
