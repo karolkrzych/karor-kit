@@ -56,9 +56,9 @@ An implementer agent with zero conversation context must be able to complete it
 without asking a single question. If you can imagine the question, the answer
 belongs in the ticket.
 
-## Cost (appended by `implement` when closing out)
+## Cost (appended by `implement`)
 
-Appended to the END of the issue body, ONCE, when the implement session fully closes out (never mid-work) — one line per dispatch, success or fail, retries included, plus one line for the orchestrator session (fable); token counts come from the harness usage report:
+Appended to the END of the issue body. Dispatch lines land IMMEDIATELY when the ticket hits Done — one line per dispatch, success or fail, retries included; token counts from the harness usage report. Never on a still-open ticket. The orchestrator line (fable) is appended at session close-out — in a batch: at batch close-out, split evenly across batch tickets as `(orchestration, batch/N)` (change 2026-08-29: Done ticket must show its dispatch cost right away — KB reads the board too):
 
 ```markdown
 ## Cost
