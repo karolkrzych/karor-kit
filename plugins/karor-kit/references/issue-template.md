@@ -25,6 +25,11 @@ Touching any file outside this list = stop and ask.
 - [ ] Verifiable statement 2
 Each criterion must be checkable by running something or looking at something specific.
 
+## Player-visible outcome
+Player-facing tickets only (skip for pure tooling/refactor/internal): what the player
+SEES/FEELS after this ticket — readability/contrast, visual feedback of the effect,
+impact on pressure/pace. Can't name it -> the ticket has a gap.
+
 ## Verification
 How to prove it works: exact test command, scene to run, what to observe.
 
