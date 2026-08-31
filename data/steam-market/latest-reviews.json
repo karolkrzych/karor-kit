@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T07:30:03.109Z",
+  "generatedAt": "2026-08-31T08:03:14.980Z",
   "boxleiterFactor": 35,
   "games": [
     {
@@ -7,9 +7,9 @@
       "appid": 2379780,
       "storeName": "Balatro",
       "verified": true,
-      "totalReviews": 197735,
+      "totalReviews": 197737,
       "positivePct": 97.8,
-      "estSales": 6920725,
+      "estSales": 6920795,
       "scoreDesc": "Overwhelmingly Positive"
     },
     {
@@ -297,9 +297,9 @@
       "appid": 813230,
       "storeName": "ANIMAL WELL",
       "verified": true,
-      "totalReviews": 24550,
+      "totalReviews": 24551,
       "positivePct": 95.7,
-      "estSales": 859250,
+      "estSales": 859285,
       "scoreDesc": "Overwhelmingly Positive"
     }
   ]
