@@ -10,6 +10,8 @@ Base rules for every kit project. Project CLAUDE.md may ADD, never override.
 4. **No new deps** (addons/plugins/packages) without human approval.
 5. **Branch per task**: `<issue-id>-slug`. One task = one branch = one PR.
 6. **Don't guess.** Ambiguity/missing info/surprise -> stop, ask.
+7. **Presentation never recomputes rules.** Sim->presentation signal carries values already
+RESOLVED (every multiplier/modifier applied); VFX/UI/tooltip never recompute from base config.
 
 ## Delegation routing (orchestrator)
 
@@ -39,7 +41,8 @@ irreversible-action confirmations.
 
 `refinement` text->tickets | `grill` interrogate->implementable | `create-issue` one ticket |
 `implement <id> [model]` dispatch | `batch-implement <ids…>` wave-parallel implements |
-`retro` friction->kit changes | `project-init` new repo | `digest` dump->tidy notes
+`retro` friction->kit changes | `project-init` new repo | `prototype` idea->playable first batch |
+`digest` dump->tidy notes
 
 ## Growth
 
