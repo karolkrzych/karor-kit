@@ -13,10 +13,12 @@ Wspólna paczka (plugin Claude Code) dla dwóch devów robiących po godzinach m
 | `implement` | Dispatch ticketu do subagenta-implementera + review diffa + domknięcie w Linear. |
 | `project-init` | Bootstrap nowego repo gry pod konwencje kitu (CLAUDE.md, docs/, Godot, gdUnit4, Linear). |
 | `retro` | Tarcia z projektu → najmniejsze możliwe zmiany kitu (jedyna ścieżka rozwoju paczki). |
+| `steam-research` | Market research Steama: cotygodniowe snapshoty (GHA) → raport tygodniowy + długoterminowy; analiza ad-hoc i prezentacja. |
 
 Poza skillami:
 
 - Agent `implementer` — Sonnet, przycięte narzędzia, zero MCP. Brief, który dostaje, musi być samowystarczalny.
+- `data/steam-market/` — snapshoty i raporty market researchu, commitowane co poniedziałek przez GHA (`.github/workflows/steam-research.yml`). Konsumuje je skill `steam-research`.
 - `references/issue-template.md` — source of truth formatu ticketów, czytany przez skille wprost.
 - `templates/CLAUDE.base.md` — żelazne zasady kopiowane verbatim do każdego repo gry.
 - Serwer MCP `linear` — oficjalny, OAuth.
