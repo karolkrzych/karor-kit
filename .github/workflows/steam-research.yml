@@ -1,0 +1,36 @@
+name: steam-research
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # poniedziałek 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Pull data + build reports
+        env:
+          STEAM_RESEARCH_OUT: data/steam-market
+        run: |
+          node plugins/karor-kit/skills/steam-research/scripts/pull-gamalytic.mjs
+          node plugins/karor-kit/skills/steam-research/scripts/pull-reviews.mjs
+          node plugins/karor-kit/skills/steam-research/scripts/compare-weekly.mjs
+          node plugins/karor-kit/skills/steam-research/scripts/analyze-longterm.mjs
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/steam-market
+          git diff --cached --quiet || git commit -m "steam-research: snapshot $(date -u +%F)"
+          git push
