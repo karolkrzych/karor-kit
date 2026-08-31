@@ -31,7 +31,11 @@ SEES/FEELS after this ticket — readability/contrast, visual feedback of the ef
 impact on pressure/pace. Can't name it -> the ticket has a gap.
 
 ## Verification
-How to prove it works: exact test command, scene to run, what to observe.
+How to prove it works: exact test command, scene to run, what to observe. Feature ticket
+(player-facing especially) must prove it's WIRED into the real game loop — a test entering
+through the actual scene/flow entrypoint, or a precise "run X, do Y, see Z" instruction.
+Green unit tests on the class alone don't count. Incident: z-garden KAR-58 — `set_shape_drawing`
+never called from night.gd; two features (KAR-25, KAR-48) shipped dead behind green tests.
 
 ## Out of scope (optional)
 Explicitly excluded things an agent might be tempted to do.

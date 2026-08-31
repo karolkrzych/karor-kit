@@ -14,7 +14,7 @@ Output style: Be extremely concise. Sacrifice grammar for the sake of concision.
 - Input: Linear id (fetch via MCP), refinement draft, or raw idea.
 - Statement conflicts with `docs/` or recorded decision -> call out immediately, resolve which is current.
 - Vague/overloaded term -> pin canonical term, record in `docs/glossary.md` (create lazily).
-- Stress-test with concrete edge scenarios ("stun already-dead enemy — what happens?").
+- Stress-test with concrete edge scenarios ("stun already-dead enemy — what happens?"). Mechanic with numbers/state -> pin the exact interpretation as an edge-case table; game -> UI-state matrix + persistence matrix. Prose breeds diverging pins across implementers' tests.
 - Decision crystallizes -> write to `docs/` right then, no batching. Hard-to-reverse + surprising + real trade-off -> short ADR in `docs/adr/`.
 
 ## Exit — mandatory, pick one
