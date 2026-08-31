@@ -16,7 +16,7 @@ Powstało 2026-08-31 przy brainstormie nowego prototypu. Zweryfikowane empiryczn
 
 ## Pułapki
 
-- **Tag "Roguelite" to śmietnik** (GTA IV, kręgle) — prawdziwy tag: `Rogue-lite`. Tagi są crowd-sourcowane: "Auto Battler" łapie idle/gacha, "Metroidvania" łapie roguelity.
+- **Nazwy tagów różnią się między systemami** (zweryfikowane empirycznie 2026-08-31): w **Gamalytic** działa `Roguelite` (bez myślnika; `Rogue-lite` zwraca total:0), w **SteamSpy** odwrotnie — `Roguelite` to śmietnik (GTA IV, kręgle), prawdziwy tag to `Rogue-lite`. Tagów `Casino` i `Slot Machine` nie ma wcale — dla hazardu istnieje tylko `Gambling`. Zawsze weryfikuj nowy tag po `total` zanim mu zaufasz. Tagi są crowd-sourcowane: "Auto Battler" łapie idle/gacha, "Metroidvania" łapie roguelity.
 - **Boxleiter**: sprzedaż ≈ recenzje × 30-40 (skrypty używają 35). Dla tanich viralowych gier Gamalytic pokazuje do 2× więcej — zawsze widełki, porównania tylko względne.
 - **Mediany z partial pulls** (tag > pobrane strony) są zawyżone — liczone z topu; flaga `medianNote` w wynikach.
 - **"Heat"** = suma copiesSold top 10 premier z okna `minYear`+ w tagu: miara koncentracji szczytu, nie wielkości rynku.
@@ -28,9 +28,14 @@ Powstało 2026-08-31 przy brainstormie nowego prototypu. Zweryfikowane empiryczn
 data/steam-market/
 ├── snapshots/            # gamalytic-YYYY-MM-DD.json, reviews-YYYY-MM-DD.json (GHA, co tydzień)
 ├── reports/              # weekly-*.md, longterm-*.md + latest-weekly.md, latest-longterm.md
+├── hooks/                # censusy hooków (populacje gier z klasyfikacją, JSON) — ręczne, nie z GHA
 ├── latest-gamalytic.json # kopia ostatniego snapshotu
 ├── latest-reviews.json
 └── PRESENTATION.md       # URL artefaktu "Radar Steama"
 ```
+
+## Census hooków (metoda, powtarzalna)
+
+Populacja: pulle Gamalytic po kombinacjach tagów (`Gambling` + roguelite'owe) + sweep storesearch po słowach kluczowych + seed lista → próg copiesSold ≥ 1000 → klasyfikacja PRIMARY HOOK ręcznie po pełnych opisach Steam (appdetails). Wynik: hook × (próby, najlepszy, mediana, flopy), cmentarze (3+ prób bez gry > 50k), puste pola (0-1 prób). Pierwszy census: 2026-08-31, luck-roguelity, n=100 (`hooks/hook-population-2026-08-31.json`).
 
 Skrypty piszą do `STEAM_RESEARCH_OUT` (GHA ustawia `data/steam-market`). Snapshoty się akumulują — to celowe: velocity recenzji i trendy długoterminowe liczą się z serii.

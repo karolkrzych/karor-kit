@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "Buckshot Roulette",
+    "steamId": 2835570,
+    "copiesSold": 8194096,
+    "year": 2024,
+    "price": 2.99,
+    "reviewScore": 95,
+    "hook": "other (Russian roulette / shotgun)",
+    "confidence": "high"
+  },
+  {
+    "name": "Liar's Bar",
+    "steamId": 3097560,
+    "copiesSold": 8048495,
+    "year": 2024,
+    "price": 6.99,
+    "reviewScore": 90,
+    "hook": "other (bluffing + Russian roulette elimination)",
+    "confidence": "high"
+  },
+  {
+    "name": "Balatro",
+    "steamId": 2379780,
+    "copiesSold": 6375834,
+    "year": 2024,
+    "price": 14.99,
+    "reviewScore": 98,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "CloverPit",
+    "steamId": 3314790,
+    "copiesSold": 1822719,
+    "year": 2025,
+    "price": 9.99,
+    "reviewScore": 90,
+    "hook": "slot machine",
+    "confidence": "high"
+  },
+  {
+    "name": "Scritchy Scratchy",
+    "steamId": 3948120,
+    "copiesSold": 1384047,
+    "year": 2026,
+    "price": 6.99,
+    "reviewScore": 94,
+    "hook": "lottery-scratchcard",
+    "confidence": "high"
+  },
+  {
+    "name": "Peglin",
+    "steamId": 1296610,
+    "copiesSold": 1016208,
+    "year": 2024,
+    "price": 19.99,
+    "reviewScore": 84,
+    "hook": "plinko-pachinko-peggle",
+    "confidence": "high"
+  },
+  {
+    "name": "Luck be a Landlord",
+    "steamId": 1404850,
+    "copiesSold": 809203,
+    "year": 2023,
+    "price": 9.99,
+    "reviewScore": 93,
+    "hook": "landlord-style symbol reels",
+    "confidence": "high"
+  },
+  {
+    "name": "RACCOIN: Coin Pusher Roguelike",
+    "steamId": 3784030,
+    "copiesSold": 796316,
+    "year": 2026,
+    "price": 11.99,
+    "reviewScore": 82,
+    "hook": "coin pusher",
+    "confidence": "high"
+  },
+  {
+    "name": "Nubby's Number Factory",
+    "steamId": 3191030,
+    "copiesSold": 572858,
+    "year": 2025,
+    "price": 4.99,
+    "reviewScore": 97,
+    "hook": "slot machine",
+    "confidence": "high"
+  },
+  {
+    "name": "Bills Must Be Paid",
+    "steamId": 4421010,
+    "copiesSold": 426035,
+    "year": 2026,
+    "price": 6.99,
+    "reviewScore": 97,
+    "hook": "other (incremental piggy-bank smasher; weak random-loot framing)",
+    "confidence": "low"
+  },
+  {
+    "name": "Dungeon Clawler",
+    "steamId": 2356780,
+    "copiesSold": 376781,
+    "year": 2026,
+    "price": 14.99,
+    "reviewScore": 89,
+    "hook": "claw machine",
+    "confidence": "high"
+  },
+  {
+    "name": "Ballionaire",
+    "steamId": 2667120,
+    "copiesSold": 369614,
+    "year": 2024,
+    "price": 12.34,
+    "reviewScore": 85,
+    "hook": "plinko-pachinko-peggle",
+    "confidence": "high"
+  },
+  {
+    "name": "Slots & Daggers",
+    "steamId": 3631290,
+    "copiesSold": 295167,
+    "year": 2025,
+    "price": 7.99,
+    "reviewScore": 94,
+    "hook": "slot machine",
+    "confidence": "high"
+  },
+  {
+    "name": "Demonic Mahjong",
+    "steamId": 3444020,
+    "copiesSold": 291778,
+    "year": 2025,
+    "price": 16.99,
+    "reviewScore": 96,
+    "hook": "mahjong",
+    "confidence": "high"
+  },
+  {
+    "name": "Dungeons & Degenerate Gamblers",
+    "steamId": 2400510,
+    "copiesSold": 288188,
+    "year": 2024,
+    "price": 14.99,
+    "reviewScore": 82,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "DICEOMANCER",
+    "steamId": 2501600,
+    "copiesSold": 283978,
+    "year": 2024,
+    "price": 14.99,
+    "reviewScore": 96,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Aces & Adventures",
+    "steamId": 1815570,
+    "copiesSold": 215587,
+    "year": 2023,
+    "price": 19.99,
+    "reviewScore": 89,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "Sol Cesto",
+    "steamId": 2738490,
+    "copiesSold": 204734,
+    "year": 2026,
+    "price": 13.99,
+    "reviewScore": 91,
+    "hook": "other (random-tile push-your-luck dungeon)",
+    "confidence": "medium"
+  },
+  {
+    "name": "Unfair Flips",
+    "steamId": 3925760,
+    "copiesSold": 177204,
+    "year": 2025,
+    "price": 1.99,
+    "reviewScore": 89,
+    "hook": "other (coin flip)",
+    "confidence": "high"
+  },
+  {
+    "name": "Dice & Fold",
+    "steamId": 2693930,
+    "copiesSold": 147359,
+    "year": 2024,
+    "price": 12.99,
+    "reviewScore": 84,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Slice & Dice",
+    "steamId": 1775490,
+    "copiesSold": 131534,
+    "year": 2024,
+    "price": 8.99,
+    "reviewScore": 97,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Lucky Tower Ultimate",
+    "steamId": 1700270,
+    "copiesSold": 119271,
+    "year": 2026,
+    "price": 14.99,
+    "reviewScore": 95,
+    "hook": "other (no distinct chance mechanic in description; \"Lucky\" is branding)",
+    "confidence": "low"
+  },
+  {
+    "name": "Rune Dice",
+    "steamId": 3542380,
+    "copiesSold": 106964,
+    "year": 2026,
+    "price": 14.99,
+    "reviewScore": 80,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Black Jacket",
+    "steamId": 3100370,
+    "copiesSold": 106303,
+    "year": 2026,
+    "price": 14.99,
+    "reviewScore": 91,
+    "hook": "blackjack",
+    "confidence": "high"
+  },
+  {
+    "name": "Dice A Million",
+    "steamId": 3430340,
+    "copiesSold": 85166,
+    "year": 2026,
+    "price": 12.99,
+    "reviewScore": 90,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Bingle Bingle",
+    "steamId": 2789810,
+    "copiesSold": 82585,
+    "year": 2026,
+    "price": 14.99,
+    "reviewScore": 82,
+    "hook": "roulette",
+    "confidence": "high"
+  },
+  {
+    "name": "Insider Trading",
+    "steamId": 3166810,
+    "copiesSold": 73424,
+    "year": 2026,
+    "price": 12.89,
+    "reviewScore": 81,
+    "hook": "other (stock-market speculation / push-your-luck cash-out)",
+    "confidence": "high"
+  },
+  {
+    "name": "Spin Hero",
+    "steamId": 2917350,
+    "copiesSold": 71256,
+    "year": 2024,
+    "price": 7.99,
+    "reviewScore": 72,
+    "hook": "slot machine",
+    "confidence": "high"
+  },
+  {
+    "name": "Dicefolk",
+    "steamId": 1996430,
+    "copiesSold": 66146,
+    "year": 2024,
+    "price": 14.99,
+    "reviewScore": 89,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Apokerlypse",
+    "steamId": 3481020,
+    "copiesSold": 61131,
+    "year": 2026,
+    "price": 9.99,
+    "reviewScore": 83,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "Dice Legacy",
+    "steamId": 1229460,
+    "copiesSold": 60744,
+    "year": 2021,
+    "price": 14.99,
+    "reviewScore": 68,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Idle Dice 2",
+    "steamId": 2238180,
+    "copiesSold": 49631,
+    "year": 2023,
+    "price": 0,
+    "reviewScore": 81,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Big Winner",
+    "steamId": 3315330,
+    "copiesSold": 37401,
+    "year": 2025,
+    "price": 12.99,
+    "reviewScore": 83,
+    "hook": "lottery-scratchcard",
+    "confidence": "high"
+  },
+  {
+    "name": "Space Warlord Baby Trading Simulator",
+    "steamId": 3642000,
+    "copiesSold": 36534,
+    "year": 2026,
+    "price": 19.99,
+    "reviewScore": 92,
+    "hook": "other (stock-market speculation / betting sim)",
+    "confidence": "medium"
+  },
+  {
+    "name": "Roll",
+    "steamId": 1585910,
+    "copiesSold": 35766,
+    "year": 2021,
+    "price": 4.99,
+    "reviewScore": 92,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Poker Quest: Swords and Spades",
+    "steamId": 1184820,
+    "copiesSold": 28582,
+    "year": 2022,
+    "price": 14.99,
+    "reviewScore": 86,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "Fhtagn Simulator",
+    "steamId": 2050590,
+    "copiesSold": 28343,
+    "year": 2022,
+    "price": 7.99,
+    "reviewScore": 89,
+    "hook": "roulette",
+    "confidence": "high"
+  },
+  {
+    "name": "Circadian Dice",
+    "steamId": 1893620,
+    "copiesSold": 27671,
+    "year": 2022,
+    "price": 5.99,
+    "reviewScore": 95,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Menherarium: Deadly Dice",
+    "steamId": 3394770,
+    "copiesSold": 24928,
+    "year": 2026,
+    "price": 8.99,
+    "reviewScore": 93,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Dice With Death",
+    "steamId": 3435260,
+    "copiesSold": 23971,
+    "year": 2026,
+    "price": 13.99,
+    "reviewScore": 92,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Dice Player One",
+    "steamId": 2752720,
+    "copiesSold": 22252,
+    "year": 2024,
+    "price": 14.99,
+    "reviewScore": 92,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Roulette Hero",
+    "steamId": 3371510,
+    "copiesSold": 22225,
+    "year": 2025,
+    "price": 9.99,
+    "reviewScore": 94,
+    "hook": "roulette",
+    "confidence": "high"
+  },
+  {
+    "name": "Scratch the Ticket",
+    "steamId": 4626940,
+    "copiesSold": 20959,
+    "year": 2026,
+    "price": 9.99,
+    "reviewScore": 46,
+    "hook": "lottery-scratchcard",
+    "confidence": "high"
+  },
+  {
+    "name": "Plinbo: Roguelike Plinko",
+    "steamId": 3948580,
+    "copiesSold": 20549,
+    "year": 2026,
+    "price": 6.99,
+    "reviewScore": 69,
+    "hook": "plinko-pachinko-peggle",
+    "confidence": "high"
+  },
+  {
+    "name": "Succubus Roulette",
+    "steamId": 3339830,
+    "copiesSold": 20309,
+    "year": 2025,
+    "price": 2.99,
+    "reviewScore": 91,
+    "hook": "roulette",
+    "confidence": "high"
+  },
+  {
+    "name": "Slot & Dungeons",
+    "steamId": 3160090,
+    "copiesSold": 17406,
+    "year": 2026,
+    "price": 8.99,
+    "reviewScore": 85,
+    "hook": "slot machine",
+    "confidence": "high"
+  },
+  {
+    "name": "Hell is Empty, Demons are playing Apokerlypse",
+    "steamId": 4559800,
+    "copiesSold": 15518,
+    "year": 2026,
+    "price": 0,
+    "reviewScore": 82,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "LuckLand",
+    "steamId": 2516820,
+    "copiesSold": 11614,
+    "year": 2023,
+    "price": 8.99,
+    "reviewScore": 95,
+    "hook": "other (spin-to-combine chess-piece mechanic)",
+    "confidence": "medium"
+  },
+  {
+    "name": "Buckshot With Friends",
+    "steamId": 2808270,
+    "copiesSold": 10614,
+    "year": 2024,
+    "price": 3.99,
+    "reviewScore": 49,
+    "hook": "other (Russian roulette / shotgun)",
+    "confidence": "high"
+  },
+  {
+    "name": "RogueJack21",
+    "steamId": 3446840,
+    "copiesSold": 9914,
+    "year": 2026,
+    "price": 11.99,
+    "reviewScore": 69,
+    "hook": "blackjack",
+    "confidence": "high"
+  },
+  {
+    "name": "Dice In You",
+    "steamId": 4189910,
+    "copiesSold": 9428,
+    "year": 2025,
+    "price": 0,
+    "reviewScore": 96,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Pip My Dice",
+    "steamId": 2797650,
+    "copiesSold": 9299,
+    "year": 2025,
+    "price": 10.99,
+    "reviewScore": 85,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Pirate's Gambit",
+    "steamId": 3532360,
+    "copiesSold": 9261,
+    "year": 2026,
+    "price": 9.99,
+    "reviewScore": 90,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "No Mana, Just Dice",
+    "steamId": 4270800,
+    "copiesSold": 8125,
+    "year": 2026,
+    "price": 0,
+    "reviewScore": 88,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Dicealot",
+    "steamId": 3035330,
+    "copiesSold": 7924,
+    "year": 2025,
+    "price": 14.99,
+    "reviewScore": 80,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Gamble Your Breath",
+    "steamId": 4124170,
+    "copiesSold": 7701,
+    "year": 2025,
+    "price": 1.99,
+    "reviewScore": 68,
+    "hook": "other card gambling",
+    "confidence": "medium"
+  },
+  {
+    "name": "Dice Legends",
+    "steamId": 3112170,
+    "copiesSold": 7371,
+    "year": 2025,
+    "price": 19.99,
+    "reviewScore": 79,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Dead Finger Dice",
+    "steamId": 3512300,
+    "copiesSold": 7256,
+    "year": 2025,
+    "price": 4.99,
+    "reviewScore": 79,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "ARSONATE",
+    "steamId": 2822980,
+    "copiesSold": 6663,
+    "year": 2026,
+    "price": 2.99,
+    "reviewScore": 84,
+    "hook": "other card gambling (card-counting game of chance)",
+    "confidence": "high"
+  },
+  {
+    "name": "Desktop Nard: Dice Idle",
+    "steamId": 4330860,
+    "copiesSold": 6538,
+    "year": 2026,
+    "price": 4.99,
+    "reviewScore": 68,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Lucky Hero",
+    "steamId": 2404510,
+    "copiesSold": 6025,
+    "year": 2023,
+    "price": 10.99,
+    "reviewScore": 84,
+    "hook": "wheel-of-fortune",
+    "confidence": "high"
+  },
+  {
+    "name": "硬币与仙人掌 (Coins & Wishpalm)",
+    "steamId": 2529540,
+    "copiesSold": 5688,
+    "year": 2025,
+    "price": 13.99,
+    "reviewScore": 78,
+    "hook": "other (bet-based random item drops, open-world adventure)",
+    "confidence": "low"
+  },
+  {
+    "name": "RogueDiceR",
+    "steamId": 3636060,
+    "copiesSold": 5507,
+    "year": 2026,
+    "price": 14.99,
+    "reviewScore": 87,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Spinny Dungeon",
+    "steamId": 2837790,
+    "copiesSold": 5412,
+    "year": 2026,
+    "price": 9.99,
+    "reviewScore": 92,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Slot or Not",
+    "steamId": 3496890,
+    "copiesSold": 5252,
+    "year": 2026,
+    "price": 6.99,
+    "reviewScore": 91,
+    "hook": "slot machine",
+    "confidence": "medium"
+  },
+  {
+    "name": "Luck & Loot",
+    "steamId": 3208110,
+    "copiesSold": 5236,
+    "year": 2025,
+    "price": 7.99,
+    "reviewScore": 91,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Dice Have No Eyes",
+    "steamId": 4535880,
+    "copiesSold": 5047,
+    "year": 2026,
+    "price": 9.99,
+    "reviewScore": 95,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Cupiclaw",
+    "steamId": 2967670,
+    "copiesSold": 4819,
+    "year": 2026,
+    "price": 9.99,
+    "reviewScore": 89,
+    "hook": "claw machine",
+    "confidence": "high"
+  },
+  {
+    "name": "Right and Down and Dice",
+    "steamId": 2228010,
+    "copiesSold": 4762,
+    "year": 2024,
+    "price": 11.99,
+    "reviewScore": 83,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Lucky Shot",
+    "steamId": 4092940,
+    "copiesSold": 4672,
+    "year": 2026,
+    "price": 12.99,
+    "reviewScore": 99,
+    "hook": "other (buildcraft FPS; no explicit chance mechanic named)",
+    "confidence": "low"
+  },
+  {
+    "name": "Dice Dice Baby",
+    "steamId": 3820810,
+    "copiesSold": 4306,
+    "year": 2025,
+    "price": 4.99,
+    "reviewScore": 90,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Lucky Lord: The Coin Pusher of Fate",
+    "steamId": 3408410,
+    "copiesSold": 4110,
+    "year": 2025,
+    "price": 7.99,
+    "reviewScore": 83,
+    "hook": "coin pusher",
+    "confidence": "high"
+  },
+  {
+    "name": "Heroes of Magic & Cards",
+    "steamId": 3843360,
+    "copiesSold": 3863,
+    "year": 2026,
+    "price": 12.99,
+    "reviewScore": 87,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "Dice of Kalma",
+    "steamId": 3885520,
+    "copiesSold": 3850,
+    "year": 2025,
+    "price": 4.99,
+    "reviewScore": 93,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "astragali",
+    "steamId": 3024410,
+    "copiesSold": 3571,
+    "year": 2025,
+    "price": 0,
+    "reviewScore": 97,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "ColdRidge",
+    "steamId": 3052500,
+    "copiesSold": 2896,
+    "year": 2024,
+    "price": 9.99,
+    "reviewScore": 74,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "LUCKROT",
+    "steamId": 3823650,
+    "copiesSold": 2850,
+    "year": 2026,
+    "price": 4.99,
+    "reviewScore": 91,
+    "hook": "other (in-run gambling hub within roguelite shooter)",
+    "confidence": "medium"
+  },
+  {
+    "name": "Spinera",
+    "steamId": 3576520,
+    "copiesSold": 2751,
+    "year": 2026,
+    "price": 6.99,
+    "reviewScore": 77,
+    "hook": "slot machine",
+    "confidence": "high"
+  },
+  {
+    "name": "Neongarten",
+    "steamId": 3211750,
+    "copiesSold": 2602,
+    "year": 2025,
+    "price": 9.99,
+    "reviewScore": 88,
+    "hook": "landlord-style symbol reels",
+    "confidence": "medium"
+  },
+  {
+    "name": "Who Trained the Hero? -Spin of Fate-",
+    "steamId": 3419450,
+    "copiesSold": 2196,
+    "year": 2025,
+    "price": 8.99,
+    "reviewScore": 67,
+    "hook": "slot machine",
+    "confidence": "medium"
+  },
+  {
+    "name": "Summoner's Gambit",
+    "steamId": 3570110,
+    "copiesSold": 2139,
+    "year": 2026,
+    "price": 7.99,
+    "reviewScore": 66,
+    "hook": "other card gambling",
+    "confidence": "medium"
+  },
+  {
+    "name": "Dice Player One: Trailer",
+    "steamId": 3023170,
+    "copiesSold": 2047,
+    "year": 2024,
+    "price": 0,
+    "reviewScore": 98,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Cheat Death",
+    "steamId": 3756340,
+    "copiesSold": 1969,
+    "year": 2026,
+    "price": 12.99,
+    "reviewScore": 87,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "High Stakes: Hot Nights",
+    "steamId": 3928770,
+    "copiesSold": 1938,
+    "year": 2025,
+    "price": 2.99,
+    "reviewScore": 83,
+    "hook": "other (rock-paper-scissors gambling, NSFW)",
+    "confidence": "high"
+  },
+  {
+    "name": "Cats & Dice",
+    "steamId": 3128280,
+    "copiesSold": 1761,
+    "year": 2025,
+    "price": 7.99,
+    "reviewScore": 82,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Dice Assassin",
+    "steamId": 2573470,
+    "copiesSold": 1317,
+    "year": 2024,
+    "price": 2.99,
+    "reviewScore": 76,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Plinko Panic!",
+    "steamId": 1794400,
+    "copiesSold": 1313,
+    "year": 2021,
+    "price": 7.99,
+    "reviewScore": 88,
+    "hook": "plinko-pachinko-peggle",
+    "confidence": "high"
+  },
+  {
+    "name": "Deadlucre",
+    "steamId": 4475190,
+    "copiesSold": 1257,
+    "year": 2026,
+    "price": 0,
+    "reviewScore": 92,
+    "hook": "other (Casino-flavored FPS roguelite; specific mechanic unclear from description)",
+    "confidence": "low"
+  },
+  {
+    "name": "出牌吧冒险家 Go Poker",
+    "steamId": 1997980,
+    "copiesSold": 1230,
+    "year": 2024,
+    "price": 0.99,
+    "reviewScore": 88,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "Poker Train",
+    "steamId": 3149430,
+    "copiesSold": 1219,
+    "year": 2024,
+    "price": 0,
+    "reviewScore": 39,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "Dice Hero: The Unoriginal Story",
+    "steamId": 1134610,
+    "copiesSold": 1202,
+    "year": 2023,
+    "price": 4.99,
+    "reviewScore": 81,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Perfect  Dice",
+    "steamId": 2398430,
+    "copiesSold": 1201,
+    "year": 2024,
+    "price": 9.99,
+    "reviewScore": 79,
+    "hook": "dice",
+    "confidence": "high"
+  },
+  {
+    "name": "Poker Dungeon : Joker's Madness",
+    "steamId": 2946260,
+    "copiesSold": 1180,
+    "year": 2024,
+    "price": 8.99,
+    "reviewScore": 93,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "Spooky Mahjong",
+    "steamId": 1793900,
+    "copiesSold": 1163,
+    "year": 2021,
+    "price": 4.99,
+    "reviewScore": 68,
+    "hook": "mahjong",
+    "confidence": "high"
+  },
+  {
+    "name": "Coinsweeper",
+    "steamId": 4321130,
+    "copiesSold": 1097,
+    "year": 2026,
+    "price": 4.99,
+    "reviewScore": 89,
+    "hook": "other (minesweeper-style push-your-luck cash-out gambling)",
+    "confidence": "high"
+  },
+  {
+    "name": "Happy Poker",
+    "steamId": 2474750,
+    "copiesSold": 1095,
+    "year": 2025,
+    "price": 4.99,
+    "reviewScore": 88,
+    "hook": "poker",
+    "confidence": "high"
+  },
+  {
+    "name": "Chasing the Dawn / CTD",
+    "steamId": 3946120,
+    "copiesSold": 1068,
+    "year": 2026,
+    "price": 8.99,
+    "reviewScore": 99,
+    "hook": "other (probability-management dungeon roguelite)",
+    "confidence": "medium"
+  },
+  {
+    "name": "What The Flip?!",
+    "steamId": 4064550,
+    "copiesSold": 1063,
+    "year": 2025,
+    "price": 0,
+    "reviewScore": 97,
+    "hook": "other (coin flip)",
+    "confidence": "high"
+  },
+  {
+    "name": "Scratch Off!",
+    "steamId": 4553140,
+    "copiesSold": 1012,
+    "year": 2026,
+    "price": 9.99,
+    "reviewScore": 88,
+    "hook": "lottery-scratchcard",
+    "confidence": "high"
+  },
+  {
+    "name": "Isekai Mage Girl Gacha Pull Simulator: Elemental Card Collection",
+    "steamId": 4321940,
+    "copiesSold": 1000,
+    "year": 2026,
+    "price": 6.99,
+    "reviewScore": 74,
+    "hook": "gacha-capsule",
+    "confidence": "medium"
+  }
+]
