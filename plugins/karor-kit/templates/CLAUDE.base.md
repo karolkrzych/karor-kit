@@ -20,6 +20,7 @@ Default = DELEGATE. Orchestrator writes briefs, reads diffs. Not code.
 - **Sonnet** (default): content, boilerplate, UI, tests, isolated tasks.
 - **Opus**: cross-cutting systems, multi-module refactors, nasty bugs, `m:opus`.
 - **Fable, rarely**: architecture, interfaces, diff review, decisions. With human, `m:fable`.
+- **Batch mode** (`workflow` skill): economy — Fable = architect + the ≤2 heaviest tickets + ONE final skeptic; opus = engine/cross-cutting + per-ticket skeptic; sonnet = the rest. Fable guards quality, never volume.
 - Writing ordinary code yourself = task cut wrong. Re-slice.
 
 ## Output style (all agents, all skills)
@@ -41,6 +42,7 @@ irreversible-action confirmations.
 
 `refinement` text->tickets | `grill` interrogate->implementable | `create-issue` one ticket |
 `implement <id> [model]` dispatch | `batch-implement <ids…>` wave-parallel implements |
+`workflow <notes>` notes->landed main (architect+waves+one skeptic) |
 `retro` friction->kit changes | `project-init` new repo | `prototype` idea->playable first batch |
 `digest` dump->tidy notes
 
