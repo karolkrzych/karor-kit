@@ -13,6 +13,7 @@ Wspólna paczka (plugin Claude Code) dla dwóch devów robiących po godzinach m
 | `implement` | Dispatch ticketu do subagenta-implementera + review diffa + domknięcie w Linear. |
 | `project-init` | Bootstrap nowego repo gry pod konwencje kitu (CLAUDE.md, docs/, Godot, gdUnit4, Linear). |
 | `retro` | Tarcia z projektu → najmniejsze możliwe zmiany kitu (jedyna ścieżka rozwoju paczki). |
+| `workflow` | Cały cykl z wklejonych notatek z playtestu: handoff → architekt (Fable: digest, rulingi, tickety) → Linear → fale implement/review/land (runner) → JEDEN sceptyk Fable na koniec → fix-upy → docs → raport + prośba o playtest. Routing oszczędny: Fable pilnuje jakości (architekt, najgrubsze tickety, finalny review), reszta opus/sonnet. |
 | `steam-research` | Market research Steama: cotygodniowe snapshoty (GHA) → raport tygodniowy + długoterminowy; analiza ad-hoc i prezentacja. |
 
 Poza skillami:
@@ -20,6 +21,7 @@ Poza skillami:
 - Agent `implementer` — Sonnet, przycięte narzędzia, zero MCP. Brief, który dostaje, musi być samowystarczalny.
 - `data/steam-market/` — snapshoty i raporty market researchu, commitowane co poniedziałek przez GHA (`.github/workflows/steam-research.yml`). Konsumuje je skill `steam-research`.
 - `references/issue-template.md` — source of truth formatu ticketów, czytany przez skille wprost.
+- `references/workflow/` — szablon handoffu (`HANDOFF-template.md`) i runner fal (`runner.js` + `wave.js`, skrypty narzędzia Workflow; ścieżki i sesja idą przez args, nie edytuje się ich w środku) dla skilla `workflow`.
 - `templates/CLAUDE.base.md` — żelazne zasady kopiowane verbatim do każdego repo gry.
 - Serwer MCP `linear` — oficjalny, OAuth.
 
@@ -56,7 +58,8 @@ Nowe wersje kitu nie przychodzą same — auto-update dla marketplace'ów spoza 
 
    Nic nie trafia do Lineara bez ludzkiego klepnięcia.
 3. **Implementacja**: `/karor-kit:implement KAR-12` (opcjonalnie model: `/karor-kit:implement KAR-12 opus`) — orchestrator dispatchuje, robi review diffa, nie pisze kodu sam.
-4. **Po mini-projekcie**: `/karor-kit:retro` — z tarć powstają zmiany kitu (max 3 na retro).
+4. **Cały cykl po playteście**: `/karor-kit:workflow <notatki>` — refinement + batch-implement w jednym: architekt Fable, jedna bramka planu, fale przez runner, jeden sceptyk na koniec, raport. Notatki wklejone albo ścieżka do pliku.
+5. **Po mini-projekcie**: `/karor-kit:retro` — z tarć powstają zmiany kitu (max 3 na retro).
 
 ### Konwencje ticketów
 
@@ -89,10 +92,11 @@ karor-kit/
 │       ├── .claude-plugin/
 │       │   └── plugin.json    # manifest pluginu
 │       ├── .mcp.json          # konfiguracja MCP (linear)
-│       ├── skills/            # 7 skilli: kit-check, create-issue, refinement,
-│       │                      # grill, implement, project-init, retro
+│       ├── skills/            # kit-check, create-issue, refinement, grill, implement,
+│       │                      # batch-implement, workflow, prototype, digest, project-init,
+│       │                      # retro, steam-research
 │       ├── agents/            # implementer
-│       ├── references/        # issue-template.md
+│       ├── references/        # issue-template.md, workflow/ (handoff template + runner)
 │       └── templates/         # CLAUDE.base.md
 └── README.md
 ```
