@@ -32,6 +32,11 @@ const RULINGS = args.rulings || `${DIGEST} holds this batch's rulings; older rul
 const NOISE = args.noise || 'game/addons game/assets game/project.godot'
 const TICKETS = args.tickets
 const BASELINE = args.baseline || '(see main)'
+// Effort routing (2026-09-17, Karol): the orchestrator decides per ticket via t.effort; default = the ticket's model
+// class. Mechanical stages (prep/land/book) stay low, skeptics medium, so the SESSION effort only ever applies to the
+// orchestrator itself — nobody has to think about effort again.
+const EFFORT_BY_MODEL = { sonnet: 'medium', opus: 'high', fable: 'xhigh' }
+const EFFORT = (t) => t.effort || EFFORT_BY_MODEL[t.model] || 'high'
 const REVIEW_MODEL = (t) => (t.model === 'sonnet' ? 'sonnet' : 'opus')  // skeptic = the ticket's model class (economy, 2026-09-17)
 
 const TEST_CMD = (wt) => `cd "${wt}" && ${GODOT_BASH} --headless --path game --import 2>&1 | tail -3 ; cd "${wt}" && ${GODOT_BASH} --headless --path game -s res://addons/gdUnit4/bin/GdUnitCmdTool.gd -a res://tests --ignoreHeadlessMode 2>&1 | grep -E "Overall Summary|Executed test|FAILED|failures|error|orphan" | tail -20`
@@ -118,7 +123,7 @@ let landChain = Promise.resolve()
 
 const results = await pipeline(
   TICKETS,
-  (t) => (t.resume_findings || t.resume_review) ? Promise.resolve(JSON.stringify({ ticket: t.id, status: 'done', resumed: true, note: t.resume_note || '' })) : agent(implementerPrompt(t), { label: `impl:${t.id}`, phase: 'Implement', agentType: 'karor-kit:implementer', model: t.model, effort: 'high' }),
+  (t) => (t.resume_findings || t.resume_review) ? Promise.resolve(JSON.stringify({ ticket: t.id, status: 'done', resumed: true, note: t.resume_note || '' })) : agent(implementerPrompt(t), { label: `impl:${t.id}`, phase: 'Implement', agentType: 'karor-kit:implementer', model: t.model, effort: EFFORT(t) }),
   async (rawReport, t) => {
     const report = parseJson(rawReport)
     if (t.resume_findings) return { t, report, reviews: [], blocking: t.resume_findings, verdict: 'fix' }
@@ -132,7 +137,7 @@ const results = await pipeline(
   async (stage, t) => {
     if (stage.verdict !== 'fix') return stage
     log(`${t.id}: ${stage.blocking.length} blocking findings -> fix round`)
-    const fix = parseJson(await agent(fixerPrompt(t, stage.blocking), { label: `fix:${t.id}`, phase: 'Fix', agentType: 'karor-kit:implementer', model: t.model, effort: 'high' }))
+    const fix = parseJson(await agent(fixerPrompt(t, stage.blocking), { label: `fix:${t.id}`, phase: 'Fix', agentType: 'karor-kit:implementer', model: t.model, effort: EFFORT(t) }))
     const relenses = ['skeptic']
     const rereviews = (await parallel(relenses.map(lens => () =>
       agent(reviewerPrompt(t, lens, { ...stage.report, fix_round: fix }), { label: `rereview:${lens}:${t.id}`, phase: 'Fix', effort: 'medium', model: t.review_model || REVIEW_MODEL(t) })))).filter(Boolean).map(parseJson)
@@ -142,12 +147,12 @@ const results = await pipeline(
   async (stage, t) => {
     if (stage.verdict !== 'ok') { log(`${t.id}: NOT landing (verdict=${stage.verdict})`); return { ...stage, landing: null } }
     landChain = landChain.then(async () => {
-      let landing = parseJson(await agent(landerPrompt(t), { label: `land:${t.id}`, phase: 'Land', model: 'sonnet', effort: 'medium' }))
+      let landing = parseJson(await agent(landerPrompt(t), { label: `land:${t.id}`, phase: 'Land', model: 'sonnet', effort: 'low' }))
       if (landing && landing.status === 'landed') return { landing }
       log(`${t.id}: landing failed (${(landing && landing.error || '').slice(0, 120)}) -> integrate main into branch, retry once`)
-      const merge = parseJson(await agent(mergerPrompt(t, landing), { label: `integrate:${t.id}`, phase: 'Land', agentType: 'karor-kit:implementer', model: t.model, effort: 'high' }))
+      const merge = parseJson(await agent(mergerPrompt(t, landing), { label: `integrate:${t.id}`, phase: 'Land', agentType: 'karor-kit:implementer', model: t.model, effort: EFFORT(t) }))
       if (!merge || merge.status !== 'done') return { landing, merge }
-      landing = parseJson(await agent(landerPrompt(t), { label: `reland:${t.id}`, phase: 'Land', model: 'sonnet', effort: 'medium' }))
+      landing = parseJson(await agent(landerPrompt(t), { label: `reland:${t.id}`, phase: 'Land', model: 'sonnet', effort: 'low' }))
       return { landing, merge }
     })
     const { landing, merge } = await landChain

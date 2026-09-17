@@ -8,7 +8,8 @@ export const meta = {
 }
 
 // Outer runner of the `workflow` skill. args: {
-//   wave_script: '<scratchpad>/wave.js', waves: [[{ id, title, wt, branch, brief, model, note?, review_model?, blocked_by? }], ...],
+//   wave_script: '<scratchpad>/wave.js', waves: [[{ id, title, wt, branch, brief, model, effort?, note?, review_model?, blocked_by? }], ...],
+//   effort?: per ticket ('low'|'medium'|'high'|'xhigh'|'max'); default = model class (sonnet medium, opus high, fable xhigh); orchestrator overrides for nasty (xhigh) or trivial (low) tickets
 //   stop_on_partial?: false  // default: continue past a not-landed ticket; tickets whose blocked_by names a not-landed/deferred id are deferred (reported at the end)
 //   label: 'batch v6', date: '2026-09-06', noise?: 'game/addons game/assets game/project.godot',
 //   ...every wave.js arg (landing, repo, gh_repo, briefs, scratch, godot, session, digest, spec, rulings, coauthor) — passed through unchanged
