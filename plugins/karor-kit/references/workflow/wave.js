@@ -11,7 +11,7 @@ export const meta = {
 
 // Runner of the `workflow` skill (inner script; `runner.js` calls it per wave). Copy to the scratchpad; NEVER edit paths into it — everything comes via args:
 // args: {
-//   tickets: [{ id, title, wt, branch, brief, model, review_model?, note?, resume_findings?, resume_review?, resume_note? }],
+//   tickets: [{ id, title, wt, branch, brief, model, review_model?, note?, blocked_by?, resume_findings?, resume_review?, resume_note? }],  // review_model defaults to the ticket's class (sonnet -> sonnet, else opus); blocked_by is read by runner.js
 //   baseline: '40 suites / 910 tests', landing: '<landing worktree>', repo: '<main checkout>', gh_repo: 'owner/name',
 //   briefs: '<briefs dir>', scratch: '<scratchpad dir>', godot: '<Godot console exe, Bash path>', session: '<Claude session URL>',
 //   digest: 'DIGEST-vN.md', spec: 'docs/design.md', rulings: '<one line: which rulings apply>', coauthor?: 'Claude … <noreply@anthropic.com>',
@@ -32,6 +32,7 @@ const RULINGS = args.rulings || `${DIGEST} holds this batch's rulings; older rul
 const NOISE = args.noise || 'game/addons game/assets game/project.godot'
 const TICKETS = args.tickets
 const BASELINE = args.baseline || '(see main)'
+const REVIEW_MODEL = (t) => (t.model === 'sonnet' ? 'sonnet' : 'opus')  // skeptic = the ticket's model class (economy, 2026-09-17)
 
 const TEST_CMD = (wt) => `cd "${wt}" && ${GODOT_BASH} --headless --path game --import 2>&1 | tail -3 ; cd "${wt}" && ${GODOT_BASH} --headless --path game -s res://addons/gdUnit4/bin/GdUnitCmdTool.gd -a res://tests --ignoreHeadlessMode 2>&1 | grep -E "Overall Summary|Executed test|FAILED|failures|error|orphan" | tail -20`
 
@@ -47,12 +48,12 @@ const parseJson = (v) => {
 const RULES = `HARD RULES (repo CLAUDE.md, non-negotiable):
 1. Sim ≠ presentation: game/sim/** never imports scenes/UI; scenes call sim, never the reverse. 7. Presentation never recomputes rules (sim signals carry resolved values).
 2. Tests gate everything: no green gdUnit4 = not done. Deterministic tests, zero timing/wall-clock assertions. Tests never write to shared user://.
-3. Scope is law: touch ONLY files listed in the ticket's "Files in scope". Need another file -> STOP and report it as "open" instead of editing it.
+3. Scope is law for PRODUCTION files: touch only production files listed in the ticket's "Files in scope" (+ the class hosting a field the ticket mandates). STANDING SCOPE, never a reason to stop: mechanical pin moves in ANY test suite (enum sizes/values, event indices, key counts, generated sentences, seeded numbers re-derived by running), game/sim/balance.gd, game/scenes/debug/balance_labels.gd, game/tests/balance_test.gd, game/tests/balance_panel_test.gd — do them and list every one in moved_pins/changed_files. Need another PRODUCTION file -> STOP and report it as "open" instead of editing it.
 4. No new deps/addons/plugins.
 5. One branch per task (already created for you). Commit messages in English, prefixed "<ID>: ...", each ending with the trailer lines:
 Co-Authored-By: ${COAUTHOR}
 Claude-Session: ${SESSION}
-6. Don't guess: ambiguity -> stop and report as "open" with your best-guess default clearly marked. Never skip hooks (--no-verify) or signing.
+6. Don't guess on DESIGN: a ticket-vs-spec contradiction or an ambiguity that changes the design -> stop and report as "open" with your best-guess marked. A case the spec simply does not name -> implement the best-guess default, state it in a doc comment and under "open" — that is NOT a stop. Never skip hooks (--no-verify) or signing.
 Node lifecycle in scenes/tests: never free() a node from inside its own signal handler; gdUnit4 fails the whole run on orphan nodes (Exit code 101).
 Godot line endings: repo files may be CRLF on checkout; do not write raw multi-line string literals in tests that depend on newlines — use "\\n" escapes.
 The --import step may rewrite tracked *.import files (line endings) and reorder project.godot: NEVER commit that churn; run "git checkout -- ${NOISE}" before committing if it shows up in git status (keep only the new .svg + .svg.import files your ticket adds on purpose).`
@@ -83,7 +84,7 @@ Implementer report: ${JSON.stringify(report)}
 Get the diff: cd "${t.wt}" && git diff main...HEAD --stat && git diff main...HEAD
 Read whole changed files when the diff is not enough. You MAY run the suite: ${TEST_CMD(t.wt)}
 
-${lens === 'skeptic' ? `LENS = SKEPTIC — you are the SOLE reviewer, so you also own scope and tests. FIRST, with file:line evidence: (1) git diff --name-only main...HEAD vs the ticket's "Files in scope" (plus any scope extension noted in the brief) — any stray file = BLOCKING; (2) hard rules 1/7: no sim->scenes import, no presentation recomputing rules = BLOCKING; no new deps; (3) every row of the ticket's test/edge-case tables has a test that would FAIL if the behaviour were wrong (name it; a missing row = BLOCKING), tests assert exact values, and every moved pin in the report is a mechanical re-derivation (re-run the suite yourself and confirm the numbers); (4) run the FULL suite (import step first) and report exact suites/cases/failures/orphans; (5) commit messages carry the required trailers. THEN your main job: REFUTE the claim "ticket ${t.id} is fully implemented and safe to merge". Go through EVERY acceptance criterion and every row of every table in the ticket and try to find one that is not met, met differently than specified, or met only by a test that does not actually exercise the real path (e.g. a wiring test that bypasses the scene, a real-mouse test that clicks a seam instead of the real control). Also try to find a regression: behaviours the ticket says must stay unchanged — verify by reading code and running the suite. Default to "refuted" (= NOT mergeable) when uncertain, but every refutation needs concrete evidence (file:line, test name, command output).` : ''}
+${lens === 'skeptic' ? `LENS = SKEPTIC — you are the SOLE reviewer, so you also own scope and tests. FIRST, with file:line evidence: (1) git diff --name-only main...HEAD vs the ticket's "Files in scope" (plus any scope extension noted in the brief) — any stray file = BLOCKING; (2) hard rules 1/7: no sim->scenes import, no presentation recomputing rules = BLOCKING; no new deps; (3) every row of the ticket's test/edge-case tables has a test that would FAIL if the behaviour were wrong (name it; a missing row = BLOCKING), tests assert exact values, and every moved pin in the report is a mechanical re-derivation (re-run the suite yourself and confirm the numbers); (4) run the FULL suite (import step first) and report exact suites/cases/failures/orphans; (5) commit messages carry the required trailers. THEN your main job: REFUTE the claim "ticket ${t.id} is fully implemented and safe to merge". Go through EVERY acceptance criterion and every row of every table in the ticket and try to find one that is not met, met differently than specified, or met only by a test that does not actually exercise the real path (e.g. a wiring test that bypasses the scene, a real-mouse test that clicks a seam instead of the real control). Also try to find a regression: behaviours the ticket says must stay unchanged — verify by reading code and running the suite. A documented best-guess on a case the spec does not name is MINOR ("ruling wanted"), never blocking; "needs an orchestrator ruling" is not a verdict by itself. Blocking = AC not met, rule 1/7 violation, missing or vacuous test for a table row, behaviour contradicting spec TEXT, stray PRODUCTION file (standing-scope test/balance edits are never stray). Default to "refuted" (= NOT mergeable) when uncertain, but every refutation needs concrete evidence (file:line, test name, command output).` : ''}
 
 Return ONLY this JSON: {"lens":"${lens}","verdict":"ok"|"blocking","findings":[{"severity":"blocking"|"minor","file":"","line":N,"summary":"","evidence":"","fix":""}],"suite":{"suites":N,"cases":N,"failures":N}}`
 
@@ -124,7 +125,7 @@ const results = await pipeline(
     if (!report || report.status !== 'done') return { t, report, verdict: 'blocked', reviews: [] }
     const lenses = ['skeptic']
     const reviews = (await parallel(lenses.map(lens => () =>
-      agent(reviewerPrompt(t, lens, report), { label: `review:${lens}:${t.id}`, phase: 'Review', effort: 'medium', model: t.review_model || 'opus' })))).filter(Boolean).map(parseJson)
+      agent(reviewerPrompt(t, lens, report), { label: `review:${lens}:${t.id}`, phase: 'Review', effort: 'medium', model: t.review_model || REVIEW_MODEL(t) })))).filter(Boolean).map(parseJson)
     const blocking = reviews.flatMap(r => (r.findings || []).filter(f => f.severity === 'blocking'))
     return { t, report, reviews, blocking, verdict: blocking.length ? 'fix' : 'ok' }
   },
@@ -134,7 +135,7 @@ const results = await pipeline(
     const fix = parseJson(await agent(fixerPrompt(t, stage.blocking), { label: `fix:${t.id}`, phase: 'Fix', agentType: 'karor-kit:implementer', model: t.model, effort: 'high' }))
     const relenses = ['skeptic']
     const rereviews = (await parallel(relenses.map(lens => () =>
-      agent(reviewerPrompt(t, lens, { ...stage.report, fix_round: fix }), { label: `rereview:${lens}:${t.id}`, phase: 'Fix', effort: 'medium', model: t.review_model || 'opus' })))).filter(Boolean).map(parseJson)
+      agent(reviewerPrompt(t, lens, { ...stage.report, fix_round: fix }), { label: `rereview:${lens}:${t.id}`, phase: 'Fix', effort: 'medium', model: t.review_model || REVIEW_MODEL(t) })))).filter(Boolean).map(parseJson)
     const still = rereviews.flatMap(r => (r.findings || []).filter(f => f.severity === 'blocking'))
     return { ...stage, fix, rereviews, still_blocking: still, verdict: (fix && fix.status === 'done' && still.length === 0) ? 'ok' : 'failed' }
   },

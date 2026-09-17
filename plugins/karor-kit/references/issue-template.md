@@ -18,7 +18,13 @@ Bad: "Animations", "Fix stuff".
 What exactly to do. Concrete and bounded.
 
 **Files in scope:** (list paths, or "new files under <dir>/")
-Touching any file outside this list = stop and ask.
+Must list: production files; the class that HOSTS every field/enum the ticket mandates; every test suite that PINS
+what changes (enum sizes/values, event indices, key counts, generated sentences, seeded trajectories — grep the
+repo for the symbol/text BEFORE ticketing); the Balance triple when a key changes. An AC that needs a file the
+list omits = the list is wrong, fix the list (incident: KAR-217 AC3, 2026-09-17).
+Standing scope (always in, never a reason to stop): mechanical pin moves in ANY test suite, `balance.gd` +
+`balance_labels.gd` + `balance_test.gd` + `balance_panel_test.gd`. Implementer lists every moved pin; the reviewer
+verifies each is mechanical. Touching any OTHER production file = stop and report.
 
 ## Acceptance criteria
 - [ ] Verifiable statement 1
@@ -58,7 +64,9 @@ Explicitly excluded things an agent might be tempted to do.
 
 An implementer agent with zero conversation context must be able to complete it
 without asking a single question. If you can imagine the question, the answer
-belongs in the ticket.
+belongs in the ticket. A case the spec simply does not name is NOT a stop: the implementer ships the
+documented best-guess and lists it under "open"; the reviewer files it as minor "ruling wanted"; the
+orchestrator ratifies at landing (v9 2026-09-17: two "needs ruling" stops per ticket cost more than the rulings).
 
 ## Cost (appended by `implement`)
 

@@ -1,6 +1,6 @@
 export const meta = {
   name: 'kit-workflow-runner',
-  description: 'Run the waves of one batch sequentially: prep worktrees -> wave.js (implement/review/fix/land, lander removes the worktree of a landed ticket) -> bookkeeping (LANDED.md, LEDGER.md, Linear); stop at the first wave with a non-landed ticket',
+  description: 'Run the waves of one batch sequentially: prep worktrees -> wave.js (implement/review/fix/land, lander removes the worktree of a landed ticket) -> bookkeeping (LANDED.md, LEDGER.md, Linear); a not-landed ticket does not stop the run — tickets blocked_by it are deferred, the rest continues (stop_on_partial: true restores the old behaviour)',
   phases: [
     { title: 'Prep', detail: 'pull main, cut worktree + branch per ticket of the wave' },
     { title: 'Bookkeeping', detail: 'LANDED.md section, LEDGER.md row, Linear comment + Done per landed ticket' },
@@ -8,7 +8,8 @@ export const meta = {
 }
 
 // Outer runner of the `workflow` skill. args: {
-//   wave_script: '<scratchpad>/wave.js', waves: [[{ id, title, wt, branch, brief, model, note?, review_model? }], ...],
+//   wave_script: '<scratchpad>/wave.js', waves: [[{ id, title, wt, branch, brief, model, note?, review_model?, blocked_by? }], ...],
+//   stop_on_partial?: false  // default: continue past a not-landed ticket; tickets whose blocked_by names a not-landed/deferred id are deferred (reported at the end)
 //   label: 'batch v6', date: '2026-09-06', noise?: 'game/addons game/assets game/project.godot',
 //   ...every wave.js arg (landing, repo, gh_repo, briefs, scratch, godot, session, digest, spec, rulings, coauthor) — passed through unchanged
 // }
@@ -57,9 +58,16 @@ const shared = Object.assign({}, args)
 delete shared.waves; delete shared.wave_script; delete shared.label; delete shared.date
 
 const out = []
+const landedIds = new Set(), failedIds = new Set(), deferred = []
 for (let i = 0; i < args.waves.length; i++) {
-  const wave = args.waves[i]
+  const waveAll = args.waves[i]
   const label = `W${i + 1}`
+  const blocked = (t) => (t.blocked_by || []).some(id => failedIds.has(id) || deferred.some(d => d.id === id))
+  const wave = waveAll.filter(t => !blocked(t))
+  const held = waveAll.filter(t => blocked(t))
+  held.forEach(t => deferred.push(t))
+  if (held.length) log(`${label}: deferred ${held.map(t => t.id).join(', ')} (blocked_by a not-landed ticket)`)
+  if (!wave.length) { out.push({ wave: label, status: 'deferred', deferred: held.map(t => t.id) }); continue }
   log(`${label}: ${wave.map(t => t.id).join(', ')}`)
   const prep = parseJson(await agent(prepPrompt(wave, label), { label: `prep:${label}`, phase: 'Prep', model: 'sonnet', effort: 'low' }))
   if (!prep || prep.status !== 'ok') { out.push({ wave: label, status: 'prep_failed', prep }); log(`${label}: prep failed — stopping`); break }
@@ -72,7 +80,11 @@ for (let i = 0; i < args.waves.length; i++) {
   const landed = wave.filter(t => (res || []).find(r => r && r.ticket === t.id && r.landing && r.landing.status === 'landed'))
   const notLanded = wave.filter(t => !landed.includes(t))
   const book = parseJson(await agent(bookPrompt(wave, res, label), { label: `book:${label}`, phase: 'Bookkeeping', model: 'sonnet', effort: 'low' }))
-  out.push({ wave: label, status: notLanded.length ? 'partial' : 'landed', landed: landed.map(t => t.id), not_landed: notLanded.map(t => t.id), tickets: res, book, main_sha_before: prep.main_sha })
-  if (notLanded.length) { log(`${label}: not landed: ${notLanded.map(t => t.id).join(', ')} — stopping before the next wave`); break }
+  out.push({ wave: label, status: notLanded.length ? 'partial' : 'landed', landed: landed.map(t => t.id), not_landed: notLanded.map(t => t.id), deferred: held.map(t => t.id), tickets: res, book, main_sha_before: prep.main_sha })
+  landed.forEach(t => landedIds.add(t.id)); notLanded.forEach(t => failedIds.add(t.id))
+  if (notLanded.length) {
+    log(`${label}: not landed: ${notLanded.map(t => t.id).join(', ')}${args.stop_on_partial ? ' — stopping before the next wave' : ' — continuing (orchestrator rules in parallel; blocked_by tickets deferred)'}`)
+    if (args.stop_on_partial) break
+  }
 }
-return out
+return { waves: out, landed: [...landedIds], not_landed: [...failedIds], deferred: deferred.map(t => t.id) }
