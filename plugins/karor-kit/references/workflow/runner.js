@@ -1,6 +1,6 @@
 export const meta = {
   name: 'kit-workflow-runner',
-  description: 'Run the waves of one batch sequentially: prep worktrees -> wave.js (implement/review/fix/land) -> bookkeeping (LANDED.md, LEDGER.md, Linear); stop at the first wave with a non-landed ticket',
+  description: 'Run the waves of one batch sequentially: prep worktrees -> wave.js (implement/review/fix/land, lander removes the worktree of a landed ticket) -> bookkeeping (LANDED.md, LEDGER.md, Linear); stop at the first wave with a non-landed ticket',
   phases: [
     { title: 'Prep', detail: 'pull main, cut worktree + branch per ticket of the wave' },
     { title: 'Bookkeeping', detail: 'LANDED.md section, LEDGER.md row, Linear comment + Done per landed ticket' },
@@ -43,7 +43,7 @@ const bookPrompt = (wave, res, label) => {
   }).join('\n\n')
   return `Bookkeeping for ${LABEL} wave ${label}. Load the Linear MCP tools via ToolSearch ("select:mcp__plugin_karor-kit_linear__save_issue,mcp__plugin_karor-kit_linear__save_comment,mcp__plugin_karor-kit_linear__get_issue"). Work in Git Bash; write files with LF endings, UTF-8; never touch git state.
 For EVERY ticket below whose landing.status is "landed":
-1. Append a section to ${BRIEFS}/LANDED.md (read it first; match the style of its existing sections; do not duplicate a section): heading "## <id> — <title> (landed ${DATE}, PR #N, main <main_sha_after short>, <suites>/<cases>)", then "New seams/API:" (public functions/fields/signals/enums added or changed, with signatures — from the implementer report's changed files + surprises; if the report is thin, run git -C <wt> diff main...HEAD --stat and git log main..HEAD --format=%B and read the diff of sim files to list the seams accurately), "Content:" (new ids, Balance keys, pins moved with old → new), "Surprises:", "Implications for later tickets:".
+1. Append a section to ${BRIEFS}/LANDED.md (read it first; match the style of its existing sections; do not duplicate a section): heading "## <id> — <title> (landed ${DATE}, PR #N, main <main_sha_after short>, <suites>/<cases>)", then "New seams/API:" (public functions/fields/signals/enums added or changed, with signatures — from the implementer report's changed files + surprises; if the report is thin, read from MAIN — the ticket's worktree is already removed after landing: git -C "${MAIN_REPO}" diff <merge_sha>^1..<merge_sha> --stat and git -C "${MAIN_REPO}" log <merge_sha>^1..<merge_sha> --format=%B, and read the diff of sim files to list the seams accurately), "Content:" (new ids, Balance keys, pins moved with old → new), "Surprises:", "Implications for later tickets:".
 2. Append a row to ${BRIEFS}/LEDGER.md (create the table header "| ticket | PR | main | suite | cost | models | notes |" if the file is empty): | <id> | #<pr> | <main short sha> | <suites>/<cases> | — | <model> impl, <review model> review | <one-line note: fix round yes/no, integrate step yes/no, notable surprise> |
 3. Linear: comment on the issue <id> with 1–2 lines + the PR url, then set its state to Done.
 For every ticket NOT landed: Linear comment on <id> with the blocker (verdict + the first blocking finding or the landing error, quoted briefly), leave its state as is; no LANDED.md section; LEDGER row with "NOT LANDED" in the notes.
