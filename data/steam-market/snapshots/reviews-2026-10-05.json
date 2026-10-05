@@ -1,0 +1,306 @@
+{
+  "generatedAt": "2026-10-05T12:57:04.989Z",
+  "boxleiterFactor": 35,
+  "games": [
+    {
+      "name": "Balatro",
+      "appid": 2379780,
+      "storeName": "Balatro",
+      "verified": true,
+      "totalReviews": 199494,
+      "positivePct": 97.8,
+      "estSales": 6982290,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Slay the Spire",
+      "appid": 646570,
+      "storeName": "Slay the Spire",
+      "verified": true,
+      "totalReviews": 219118,
+      "positivePct": 97.5,
+      "estSales": 7669130,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Luck be a Landlord",
+      "appid": 1404850,
+      "storeName": "Luck be a Landlord",
+      "verified": true,
+      "totalReviews": 11555,
+      "positivePct": 93.2,
+      "estSales": 404425,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Monster Train 2",
+      "appid": 2742830,
+      "storeName": "Monster Train 2",
+      "verified": true,
+      "totalReviews": 10229,
+      "positivePct": 95.3,
+      "estSales": 358015,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Wildfrost",
+      "appid": 1811990,
+      "storeName": "Wildfrost",
+      "verified": true,
+      "totalReviews": 8862,
+      "positivePct": 82.9,
+      "estSales": 310170,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Cobalt Core",
+      "appid": 2179850,
+      "storeName": "Cobalt Core",
+      "verified": true,
+      "totalReviews": 4405,
+      "positivePct": 96,
+      "estSales": 154175,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Shogun Showdown",
+      "appid": 2084000,
+      "storeName": "Shogun Showdown",
+      "verified": true,
+      "totalReviews": 7119,
+      "positivePct": 95.1,
+      "estSales": 249165,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Slice & Dice",
+      "appid": 1775490,
+      "storeName": "Slice & Dice",
+      "verified": true,
+      "totalReviews": 2588,
+      "positivePct": 96.9,
+      "estSales": 90580,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Peglin",
+      "appid": 1296610,
+      "storeName": "Peglin",
+      "verified": true,
+      "totalReviews": 17726,
+      "positivePct": 83.7,
+      "estSales": 620410,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Backpack Battles",
+      "appid": 2427700,
+      "storeName": "Backpack Battles",
+      "verified": true,
+      "totalReviews": 20767,
+      "positivePct": 91.2,
+      "estSales": 726845,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Backpack Hero",
+      "appid": 1970580,
+      "storeName": "Backpack Hero",
+      "verified": true,
+      "totalReviews": 8538,
+      "positivePct": 86.4,
+      "estSales": 298830,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Mechabellum",
+      "appid": 669330,
+      "storeName": "Mechabellum",
+      "verified": true,
+      "totalReviews": 19813,
+      "positivePct": 83.6,
+      "estSales": 693455,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Super Auto Pets",
+      "appid": 1714040,
+      "storeName": "Super Auto Pets",
+      "verified": true,
+      "totalReviews": 36236,
+      "positivePct": 90.4,
+      "estSales": 1268260,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "The Bazaar",
+      "appid": 1617400,
+      "storeName": "The Bazaar",
+      "verified": true,
+      "totalReviews": 16148,
+      "positivePct": 69.2,
+      "estSales": 565180,
+      "scoreDesc": "Mixed"
+    },
+    {
+      "name": "Despot's Game",
+      "appid": 1227280,
+      "storeName": "Despot's Game: Dystopian Battle Simulator",
+      "verified": true,
+      "totalReviews": 3361,
+      "positivePct": 84,
+      "estSales": 117635,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Brotato",
+      "appid": 1942280,
+      "storeName": "Brotato",
+      "verified": true,
+      "totalReviews": 119467,
+      "positivePct": 95.9,
+      "estSales": 4181345,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Halls of Torment",
+      "appid": 2218750,
+      "storeName": "Halls of Torment",
+      "verified": true,
+      "totalReviews": 31916,
+      "positivePct": 95.3,
+      "estSales": 1117060,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Death Must Die",
+      "appid": 2334730,
+      "storeName": "Death Must Die",
+      "verified": true,
+      "totalReviews": 21784,
+      "positivePct": 90.1,
+      "estSales": 762440,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Tiny Rogues",
+      "appid": 2088570,
+      "storeName": "Tiny Rogues",
+      "verified": true,
+      "totalReviews": 10789,
+      "positivePct": 96.1,
+      "estSales": 377615,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Windblown",
+      "appid": 1911610,
+      "storeName": "Windblown",
+      "verified": true,
+      "totalReviews": 10413,
+      "positivePct": 88.7,
+      "estSales": 364455,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Megabonk",
+      "appid": 3405340,
+      "storeName": "Megabonk",
+      "verified": true,
+      "totalReviews": 106748,
+      "positivePct": 94.2,
+      "estSales": 3736180,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "CloverPit",
+      "appid": 3314790,
+      "storeName": "CloverPit",
+      "verified": true,
+      "totalReviews": 26246,
+      "positivePct": 90.2,
+      "estSales": 918610,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Dungeon Clawler",
+      "appid": 2356780,
+      "storeName": "Dungeon Clawler",
+      "verified": true,
+      "totalReviews": 4035,
+      "positivePct": 88.8,
+      "estSales": 141225,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Ballionaire",
+      "appid": 2667120,
+      "storeName": "Ballionaire",
+      "verified": true,
+      "totalReviews": 2726,
+      "positivePct": 84,
+      "estSales": 95410,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Nubby's Number Factory",
+      "appid": 3191030,
+      "storeName": "Nubby's Number Factory",
+      "verified": true,
+      "totalReviews": 19682,
+      "positivePct": 97.3,
+      "estSales": 688870,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Path of Achra",
+      "appid": 2128270,
+      "storeName": "Path of Achra",
+      "verified": true,
+      "totalReviews": 3272,
+      "positivePct": 98,
+      "estSales": 114520,
+      "scoreDesc": "Overwhelmingly Positive"
+    },
+    {
+      "name": "Rift Wizard 2",
+      "appid": 2058570,
+      "storeName": "Rift Wizard 2",
+      "verified": true,
+      "totalReviews": 778,
+      "positivePct": 91.6,
+      "estSales": 27230,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Hero's Hour",
+      "appid": 1656780,
+      "storeName": "Hero's Hour",
+      "verified": true,
+      "totalReviews": 5754,
+      "positivePct": 79.4,
+      "estSales": 201390,
+      "scoreDesc": "Mostly Positive"
+    },
+    {
+      "name": "Nine Sols",
+      "appid": 1809540,
+      "storeName": "Nine Sols",
+      "verified": true,
+      "totalReviews": 46031,
+      "positivePct": 94.4,
+      "estSales": 1611085,
+      "scoreDesc": "Very Positive"
+    },
+    {
+      "name": "Animal Well",
+      "appid": 813230,
+      "storeName": "ANIMAL WELL",
+      "verified": true,
+      "totalReviews": 24703,
+      "positivePct": 95.7,
+      "estSales": 864605,
+      "scoreDesc": "Overwhelmingly Positive"
+    }
+  ]
+}
