@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T12:54:31.580Z",
+  "generatedAt": "2026-10-12T13:46:37.156Z",
   "minYear": 2023,
   "clusters": {
     "roguelike-deckbuilder": {
@@ -7,8 +7,8 @@
         "Roguelike",
         "Deckbuilding"
       ],
-      "totalAllTime": 1701,
-      "pulled": 1701,
+      "totalAllTime": 1714,
+      "pulled": 1714,
       "partial": false,
       "releasesPerYear": {
         "2014": 1,
@@ -21,15 +21,15 @@
         "2021": 47,
         "2022": 85,
         "2023": 161,
-        "2024": 276,
+        "2024": 275,
         "2025": 419,
-        "2026": 645
+        "2026": 659
       },
       "topRecent": [
         {
           "steamId": 2868840,
           "name": "Slay the Spire 2",
-          "copiesSold": 7342472,
+          "copiesSold": 7376207,
           "price": 24.99,
           "reviewScore": 61,
           "publisherClass": "AA",
@@ -38,7 +38,7 @@
         {
           "steamId": 2379780,
           "name": "Balatro",
-          "copiesSold": 6454117,
+          "copiesSold": 6481939,
           "price": 14.99,
           "reviewScore": 98,
           "publisherClass": "AA",
@@ -47,7 +47,7 @@
         {
           "steamId": 3265700,
           "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
-          "copiesSold": 1312287,
+          "copiesSold": 1327808,
           "price": 9.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -56,7 +56,7 @@
         {
           "steamId": 2784470,
           "name": "9 Kings",
-          "copiesSold": 1120259,
+          "copiesSold": 1124055,
           "price": 19.99,
           "reviewScore": 92,
           "publisherClass": "AA",
@@ -65,34 +65,34 @@
         {
           "steamId": 1296610,
           "name": "Peglin",
-          "copiesSold": 1021677,
+          "copiesSold": 1019167,
           "price": 19.99,
           "reviewScore": 84,
           "publisherClass": "Indie",
           "year": 2024
         },
         {
-          "steamId": 2103140,
-          "name": "Magicraft",
-          "copiesSold": 936351,
-          "price": 15.99,
-          "reviewScore": 93,
-          "publisherClass": "AA",
-          "year": 2024
-        },
-        {
           "steamId": 2495980,
           "name": "Arrow a Row",
-          "copiesSold": 935568,
+          "copiesSold": 938905,
           "price": 0,
           "reviewScore": 97,
           "publisherClass": "Hobbyist",
           "year": 2023
         },
         {
+          "steamId": 2103140,
+          "name": "Magicraft",
+          "copiesSold": 937729,
+          "price": 15.99,
+          "reviewScore": 93,
+          "publisherClass": "AA",
+          "year": 2024
+        },
+        {
           "steamId": 3784030,
           "name": "RACCOIN: Coin Pusher Roguelike",
-          "copiesSold": 818377,
+          "copiesSold": 827592,
           "price": 11.99,
           "reviewScore": 82,
           "publisherClass": "AA",
@@ -101,7 +101,7 @@
         {
           "steamId": 1404850,
           "name": "Luck be a Landlord",
-          "copiesSold": 814684,
+          "copiesSold": 816753,
           "price": 9.99,
           "reviewScore": 93,
           "publisherClass": "Indie",
@@ -110,23 +110,23 @@
         {
           "steamId": 2753900,
           "name": "The King is Watching",
-          "copiesSold": 668327,
+          "copiesSold": 675301,
           "price": 14.99,
           "reviewScore": 89,
           "publisherClass": "AA",
           "year": 2025
         }
       ],
-      "heatTop10Recent": 21424119,
-      "medianRecentCopies": 482,
+      "heatTop10Recent": 21525456,
+      "medianRecentCopies": 478,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "auto-battler": {
       "tags": [
         "Auto Battler"
       ],
-      "totalAllTime": 1646,
-      "pulled": 1646,
+      "totalAllTime": 1664,
+      "pulled": 1664,
       "partial": false,
       "releasesPerYear": {
         "2009": 1,
@@ -140,24 +140,33 @@
         "2021": 73,
         "2022": 125,
         "2023": 179,
-        "2024": 275,
+        "2024": 274,
         "2025": 359,
-        "2026": 562
+        "2026": 581
       },
       "topRecent": [
         {
           "steamId": 3678970,
           "name": "TBH: Task Bar Hero",
-          "copiesSold": 3123527,
+          "copiesSold": 3139167,
           "price": 0,
           "reviewScore": 54,
           "publisherClass": "Indie",
           "year": 2026
         },
         {
+          "steamId": 2832330,
+          "name": "Aeons Echo",
+          "copiesSold": 1652666,
+          "price": 0,
+          "reviewScore": 73,
+          "publisherClass": "Indie",
+          "year": 2024
+        },
+        {
           "steamId": 2239150,
           "name": "Thronefall",
-          "copiesSold": 1613175,
+          "copiesSold": 1620104,
           "price": 12.99,
           "reviewScore": 96,
           "publisherClass": "AA",
@@ -166,7 +175,7 @@
         {
           "steamId": 2427700,
           "name": "Backpack Battles",
-          "copiesSold": 1555750,
+          "copiesSold": 1555826,
           "price": 14.99,
           "reviewScore": 91,
           "publisherClass": "AA",
@@ -175,7 +184,7 @@
         {
           "steamId": 2784470,
           "name": "9 Kings",
-          "copiesSold": 1120259,
+          "copiesSold": 1124055,
           "price": 19.99,
           "reviewScore": 92,
           "publisherClass": "AA",
@@ -184,25 +193,16 @@
         {
           "steamId": 1013320,
           "name": "Firestone – Idle Clicker Online RPG",
-          "copiesSold": 1009272,
+          "copiesSold": 1015970,
           "price": 0,
           "reviewScore": 77,
           "publisherClass": "Indie",
           "year": 2024
         },
         {
-          "steamId": 2832330,
-          "name": "Aeons Echo",
-          "copiesSold": 917487,
-          "price": 0,
-          "reviewScore": 73,
-          "publisherClass": "Indie",
-          "year": 2024
-        },
-        {
           "steamId": 1404850,
           "name": "Luck be a Landlord",
-          "copiesSold": 814684,
+          "copiesSold": 816753,
           "price": 9.99,
           "reviewScore": 93,
           "publisherClass": "Indie",
@@ -211,7 +211,7 @@
         {
           "steamId": 669330,
           "name": "Mechabellum",
-          "copiesSold": 781603,
+          "copiesSold": 787532,
           "price": 14.99,
           "reviewScore": 84,
           "publisherClass": "Indie",
@@ -220,31 +220,31 @@
         {
           "steamId": 2471100,
           "name": "Unnamed Space Idle",
-          "copiesSold": 744158,
+          "copiesSold": 744656,
           "price": 0,
-          "reviewScore": 93,
+          "reviewScore": 92,
           "publisherClass": "Indie",
           "year": 2023
         },
         {
           "steamId": 2753900,
           "name": "The King is Watching",
-          "copiesSold": 668327,
+          "copiesSold": 675301,
           "price": 14.99,
           "reviewScore": 89,
           "publisherClass": "AA",
           "year": 2025
         }
       ],
-      "heatTop10Recent": 12348242,
-      "medianRecentCopies": 490,
+      "heatTop10Recent": 13132030,
+      "medianRecentCopies": 485,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "action-roguelike": {
       "tags": [
         "Action Roguelike"
       ],
-      "totalAllTime": 6506,
+      "totalAllTime": 6548,
       "pulled": 3000,
       "partial": true,
       "releasesPerYear": {
@@ -255,23 +255,23 @@
         "2013": 9,
         "2014": 29,
         "2015": 40,
-        "2016": 52,
+        "2016": 51,
         "2017": 63,
         "2018": 72,
         "2019": 81,
         "2020": 105,
-        "2021": 151,
-        "2022": 237,
+        "2021": 150,
+        "2022": 236,
         "2023": 416,
-        "2024": 576,
-        "2025": 606,
-        "2026": 556
+        "2024": 572,
+        "2025": 604,
+        "2026": 565
       },
       "topRecent": [
         {
           "steamId": 3241660,
           "name": "R.E.P.O.",
-          "copiesSold": 20398555,
+          "copiesSold": 20495902,
           "price": 9.99,
           "reviewScore": 96,
           "publisherClass": "AA",
@@ -280,7 +280,7 @@
         {
           "steamId": 3527290,
           "name": "PEAK",
-          "copiesSold": 19327800,
+          "copiesSold": 19423684,
           "price": 7.99,
           "reviewScore": 94,
           "publisherClass": "AA",
@@ -289,7 +289,7 @@
         {
           "steamId": 1942280,
           "name": "Brotato",
-          "copiesSold": 7797543,
+          "copiesSold": 7813350,
           "price": 4.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -298,43 +298,43 @@
         {
           "steamId": 2881650,
           "name": "Content Warning",
-          "copiesSold": 5771222,
+          "copiesSold": 5807380,
           "price": 7.99,
           "reviewScore": 94,
           "publisherClass": "AA",
           "year": 2024
         },
         {
-          "steamId": 3167020,
-          "name": "Escape From Duckov",
-          "copiesSold": 4538242,
-          "price": 17.99,
-          "reviewScore": 84,
-          "publisherClass": "AA",
-          "year": 2025
-        },
-        {
-          "steamId": 3405340,
-          "name": "Megabonk",
-          "copiesSold": 4503660,
-          "price": 9.99,
-          "reviewScore": 94,
-          "publisherClass": "Indie",
-          "year": 2025
-        },
-        {
           "steamId": 3892270,
           "name": "Gamble With Your Friends",
-          "copiesSold": 4404570,
+          "copiesSold": 4567531,
           "price": 7.99,
           "reviewScore": 90,
           "publisherClass": "Indie",
           "year": 2026
         },
         {
+          "steamId": 3167020,
+          "name": "Escape From Duckov",
+          "copiesSold": 4543244,
+          "price": 17.99,
+          "reviewScore": 85,
+          "publisherClass": "AA",
+          "year": 2025
+        },
+        {
+          "steamId": 3405340,
+          "name": "Megabonk",
+          "copiesSold": 4522175,
+          "price": 9.99,
+          "reviewScore": 94,
+          "publisherClass": "Indie",
+          "year": 2025
+        },
+        {
           "steamId": 1145350,
           "name": "Hades II",
-          "copiesSold": 3758688,
+          "copiesSold": 3779319,
           "price": 29.99,
           "reviewScore": 96,
           "publisherClass": "AA",
@@ -343,7 +343,7 @@
         {
           "steamId": 2321470,
           "name": "Deep Rock Galactic: Survivor",
-          "copiesSold": 2303768,
+          "copiesSold": 2323909,
           "price": 12.99,
           "reviewScore": 86,
           "publisherClass": "Indie",
@@ -352,44 +352,45 @@
         {
           "steamId": 1966900,
           "name": "20 Minutes Till Dawn",
-          "copiesSold": 1793640,
+          "copiesSold": 1793252,
           "price": 4.99,
           "reviewScore": 90,
           "publisherClass": "Indie",
           "year": 2023
         }
       ],
-      "heatTop10Recent": 74597688,
-      "medianRecentCopies": 1305,
+      "heatTop10Recent": 75069746,
+      "medianRecentCopies": 1320,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "bullet-heaven": {
       "tags": [
         "Bullet Heaven"
       ],
-      "totalAllTime": 644,
-      "pulled": 644,
+      "totalAllTime": 661,
+      "pulled": 661,
       "partial": false,
       "releasesPerYear": {
         "2013": 2,
         "2014": 2,
         "2015": 1,
         "2016": 1,
-        "2017": 1,
+        "2017": 2,
+        "2018": 1,
         "2019": 1,
-        "2020": 1,
+        "2020": 3,
         "2021": 3,
         "2022": 20,
-        "2023": 52,
+        "2023": 53,
         "2024": 81,
-        "2025": 119,
-        "2026": 360
+        "2025": 121,
+        "2026": 370
       },
       "topRecent": [
         {
           "steamId": 1942280,
           "name": "Brotato",
-          "copiesSold": 7797543,
+          "copiesSold": 7813350,
           "price": 4.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -398,7 +399,7 @@
         {
           "steamId": 3405340,
           "name": "Megabonk",
-          "copiesSold": 4503660,
+          "copiesSold": 4522175,
           "price": 9.99,
           "reviewScore": 94,
           "publisherClass": "Indie",
@@ -407,7 +408,7 @@
         {
           "steamId": 2321470,
           "name": "Deep Rock Galactic: Survivor",
-          "copiesSold": 2303768,
+          "copiesSold": 2323909,
           "price": 12.99,
           "reviewScore": 86,
           "publisherClass": "Indie",
@@ -416,7 +417,7 @@
         {
           "steamId": 1966900,
           "name": "20 Minutes Till Dawn",
-          "copiesSold": 1793640,
+          "copiesSold": 1793252,
           "price": 4.99,
           "reviewScore": 90,
           "publisherClass": "Indie",
@@ -425,7 +426,7 @@
         {
           "steamId": 2062430,
           "name": "BALL x PIT",
-          "copiesSold": 1601184,
+          "copiesSold": 1609307,
           "price": 14.99,
           "reviewScore": 95,
           "publisherClass": "AA",
@@ -434,16 +435,16 @@
         {
           "steamId": 2904000,
           "name": "The Spell Brigade",
-          "copiesSold": 1486993,
+          "copiesSold": 1492493,
           "price": 12.99,
-          "reviewScore": 81,
+          "reviewScore": 82,
           "publisherClass": "Indie",
           "year": 2026
         },
         {
           "steamId": 2218750,
           "name": "Halls of Torment",
-          "copiesSold": 1401233,
+          "copiesSold": 1404658,
           "price": 6.66,
           "reviewScore": 95,
           "publisherClass": "Indie",
@@ -452,7 +453,7 @@
         {
           "steamId": 2066020,
           "name": "Soulstone Survivors",
-          "copiesSold": 1373831,
+          "copiesSold": 1373446,
           "price": 14.99,
           "reviewScore": 91,
           "publisherClass": "Indie",
@@ -461,7 +462,7 @@
         {
           "steamId": 2420510,
           "name": "HoloCure - Save the Fans!",
-          "copiesSold": 1110753,
+          "copiesSold": 1116530,
           "price": 0,
           "reviewScore": 99,
           "publisherClass": "Hobbyist",
@@ -470,15 +471,15 @@
         {
           "steamId": 2334730,
           "name": "Death Must Die",
-          "copiesSold": 1082756,
+          "copiesSold": 1084542,
           "price": 6.99,
           "reviewScore": 90,
           "publisherClass": "Indie",
           "year": 2023
         }
       ],
-      "heatTop10Recent": 24455361,
-      "medianRecentCopies": 633,
+      "heatTop10Recent": 24533662,
+      "medianRecentCopies": 612,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "tactics-roguelite": {
@@ -486,8 +487,8 @@
         "Turn-Based Tactics",
         "Roguelike"
       ],
-      "totalAllTime": 1249,
-      "pulled": 1249,
+      "totalAllTime": 1259,
+      "pulled": 1259,
       "partial": false,
       "releasesPerYear": {
         "2010": 1,
@@ -502,15 +503,15 @@
         "2021": 67,
         "2022": 100,
         "2023": 121,
-        "2024": 208,
-        "2025": 272,
-        "2026": 394
+        "2024": 207,
+        "2025": 271,
+        "2026": 406
       },
       "topRecent": [
         {
           "steamId": 1940340,
           "name": "Darkest Dungeon® II",
-          "copiesSold": 1169144,
+          "copiesSold": 1177599,
           "price": 39.99,
           "reviewScore": 75,
           "publisherClass": "AA",
@@ -519,7 +520,7 @@
         {
           "steamId": 1105670,
           "name": "The Last Spell",
-          "copiesSold": 694909,
+          "copiesSold": 695856,
           "price": 24.99,
           "reviewScore": 91,
           "publisherClass": "AA",
@@ -528,7 +529,7 @@
         {
           "steamId": 2742830,
           "name": "Monster Train 2",
-          "copiesSold": 533364,
+          "copiesSold": 538689,
           "price": 24.99,
           "reviewScore": 95,
           "publisherClass": "Indie",
@@ -537,7 +538,7 @@
         {
           "steamId": 378760,
           "name": "Pixel Starships",
-          "copiesSold": 521710,
+          "copiesSold": 515358,
           "price": 0,
           "reviewScore": 73,
           "publisherClass": "Indie",
@@ -546,7 +547,7 @@
         {
           "steamId": 2084000,
           "name": "Shogun Showdown",
-          "copiesSold": 364395,
+          "copiesSold": 366194,
           "price": 14.99,
           "reviewScore": 95,
           "publisherClass": "Indie",
@@ -555,34 +556,34 @@
         {
           "steamId": 3114410,
           "name": "Skill Legends Royale",
-          "copiesSold": 347790,
+          "copiesSold": 349665,
           "price": 0,
           "reviewScore": 74,
           "publisherClass": "Indie",
           "year": 2024
         },
         {
-          "steamId": 1811990,
-          "name": "Wildfrost",
-          "copiesSold": 270284,
-          "price": 19.99,
-          "reviewScore": 83,
-          "publisherClass": "AA",
-          "year": 2023
-        },
-        {
           "steamId": 2525310,
           "name": "Drop Duchy",
-          "copiesSold": 268778,
+          "copiesSold": 270852,
           "price": 14.99,
           "reviewScore": 89,
           "publisherClass": "Indie",
           "year": 2025
         },
         {
+          "steamId": 1811990,
+          "name": "Wildfrost",
+          "copiesSold": 270188,
+          "price": 19.99,
+          "reviewScore": 83,
+          "publisherClass": "AA",
+          "year": 2023
+        },
+        {
           "steamId": 1062810,
           "name": "Inkbound",
-          "copiesSold": 235379,
+          "copiesSold": 237076,
           "price": 29.99,
           "reviewScore": 87,
           "publisherClass": "Indie",
@@ -591,23 +592,23 @@
         {
           "steamId": 2797340,
           "name": "Cat God Ranch",
-          "copiesSold": 227386,
+          "copiesSold": 227664,
           "price": 9.99,
           "reviewScore": 93,
           "publisherClass": "Indie",
           "year": 2024
         }
       ],
-      "heatTop10Recent": 4633139,
-      "medianRecentCopies": 386,
+      "heatTop10Recent": 4649141,
+      "medianRecentCopies": 385,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "metroidvania": {
       "tags": [
         "Metroidvania"
       ],
-      "totalAllTime": 1890,
-      "pulled": 1890,
+      "totalAllTime": 1899,
+      "pulled": 1899,
       "partial": false,
       "releasesPerYear": {
         "2008": 1,
@@ -627,13 +628,13 @@
         "2023": 228,
         "2024": 266,
         "2025": 293,
-        "2026": 239
+        "2026": 248
       },
       "topRecent": [
         {
           "steamId": 1030300,
           "name": "Hollow Knight: Silksong",
-          "copiesSold": 5559546,
+          "copiesSold": 5575055,
           "price": 19.99,
           "reviewScore": 90,
           "publisherClass": "AA",
@@ -642,7 +643,7 @@
         {
           "steamId": 1809540,
           "name": "Nine Sols",
-          "copiesSold": 1049310,
+          "copiesSold": 1063684,
           "price": 29.99,
           "reviewScore": 94,
           "publisherClass": "Indie",
@@ -651,7 +652,7 @@
         {
           "steamId": 813230,
           "name": "ANIMAL WELL",
-          "copiesSold": 755125,
+          "copiesSold": 758310,
           "price": 24.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -660,7 +661,7 @@
         {
           "steamId": 2114740,
           "name": "Blasphemous 2",
-          "copiesSold": 714954,
+          "copiesSold": 724440,
           "price": 29.99,
           "reviewScore": 91,
           "publisherClass": "AA",
@@ -669,7 +670,7 @@
         {
           "steamId": 1740720,
           "name": "Have a Nice Death",
-          "copiesSold": 622219,
+          "copiesSold": 623393,
           "price": 24.99,
           "reviewScore": 86,
           "publisherClass": "AA",
@@ -678,7 +679,7 @@
         {
           "steamId": 1911610,
           "name": "Windblown",
-          "copiesSold": 551794,
+          "copiesSold": 553738,
           "price": 24.99,
           "reviewScore": 89,
           "publisherClass": "AA",
@@ -687,7 +688,7 @@
         {
           "steamId": 2365810,
           "name": "Pseudoregalia",
-          "copiesSold": 371312,
+          "copiesSold": 370519,
           "price": 5.99,
           "reviewScore": 97,
           "publisherClass": "Indie",
@@ -696,7 +697,7 @@
         {
           "steamId": 2725260,
           "name": "ENDER MAGNOLIA: Bloom in the Mist",
-          "copiesSold": 362244,
+          "copiesSold": 363505,
           "price": 24.99,
           "reviewScore": 95,
           "publisherClass": "Indie",
@@ -705,7 +706,7 @@
         {
           "steamId": 1701520,
           "name": "Afterimage",
-          "copiesSold": 357830,
+          "copiesSold": 358700,
           "price": 24.99,
           "reviewScore": 77,
           "publisherClass": "Indie",
@@ -714,15 +715,15 @@
         {
           "steamId": 1745510,
           "name": "Lunacid",
-          "copiesSold": 323109,
+          "copiesSold": 324979,
           "price": 13.99,
           "reviewScore": 91,
           "publisherClass": "Indie",
           "year": 2023
         }
       ],
-      "heatTop10Recent": 10667443,
-      "medianRecentCopies": 474,
+      "heatTop10Recent": 10716323,
+      "medianRecentCopies": 475,
       "medianNote": "mediana z pełnego zbioru taga"
     }
   },
@@ -731,8 +732,8 @@
       "tags": [
         "Open World Survival Craft"
       ],
-      "totalAllTime": 687,
-      "pulled": 687,
+      "totalAllTime": 689,
+      "pulled": 689,
       "partial": false,
       "releasesPerYear": {
         "2011": 1,
@@ -750,13 +751,13 @@
         "2023": 67,
         "2024": 92,
         "2025": 91,
-        "2026": 91
+        "2026": 93
       },
       "topRecent": [
         {
           "steamId": 1623730,
           "name": "Palworld",
-          "copiesSold": 20716279,
+          "copiesSold": 20765182,
           "price": 29.99,
           "reviewScore": 95,
           "publisherClass": "AA",
@@ -765,7 +766,7 @@
         {
           "steamId": 892970,
           "name": "Valheim",
-          "copiesSold": 17158884,
+          "copiesSold": 17228522,
           "price": 29.99,
           "reviewScore": 94,
           "publisherClass": "AAA",
@@ -774,7 +775,7 @@
         {
           "steamId": 251570,
           "name": "7 Days to Die",
-          "copiesSold": 15588883,
+          "copiesSold": 15603405,
           "price": 44.99,
           "reviewScore": 87,
           "publisherClass": "AA",
@@ -783,7 +784,7 @@
         {
           "steamId": 2139460,
           "name": "Once Human",
-          "copiesSold": 12576786,
+          "copiesSold": 12573553,
           "price": 0,
           "reviewScore": 79,
           "publisherClass": "AA",
@@ -792,7 +793,7 @@
         {
           "steamId": 526870,
           "name": "Satisfactory",
-          "copiesSold": 7642143,
+          "copiesSold": 7664397,
           "price": 39.99,
           "reviewScore": 97,
           "publisherClass": "AAA",
@@ -801,7 +802,7 @@
         {
           "steamId": 513710,
           "name": "SCUM",
-          "copiesSold": 5838740,
+          "copiesSold": 5840534,
           "price": 44.99,
           "reviewScore": 74,
           "publisherClass": "AA",
@@ -810,7 +811,7 @@
         {
           "steamId": 1621690,
           "name": "Core Keeper",
-          "copiesSold": 3894368,
+          "copiesSold": 3938311,
           "price": 19.99,
           "reviewScore": 93,
           "publisherClass": "AA",
@@ -819,7 +820,7 @@
         {
           "steamId": 1284190,
           "name": "The Planet Crafter",
-          "copiesSold": 2440128,
+          "copiesSold": 2445368,
           "price": 23.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -828,7 +829,7 @@
         {
           "steamId": 1169040,
           "name": "Necesse",
-          "copiesSold": 2354644,
+          "copiesSold": 2348600,
           "price": 14.99,
           "reviewScore": 93,
           "publisherClass": "Indie",
@@ -837,22 +838,22 @@
         {
           "steamId": 3041230,
           "name": "Windrose",
-          "copiesSold": 2227002,
+          "copiesSold": 2240680,
           "price": 29.99,
           "reviewScore": 87,
           "publisherClass": "AA",
           "year": 2026
         }
       ],
-      "heatTop10Recent": 90437857,
-      "medianRecentCopies": 4596,
+      "heatTop10Recent": 90648552,
+      "medianRecentCopies": 4850,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "Horror": {
       "tags": [
         "Horror"
       ],
-      "totalAllTime": 15398,
+      "totalAllTime": 15462,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
@@ -864,25 +865,25 @@
         "2011": 17,
         "2012": 21,
         "2013": 44,
-        "2014": 75,
-        "2015": 84,
-        "2016": 133,
+        "2014": 76,
+        "2015": 83,
+        "2016": 134,
         "2017": 117,
         "2018": 112,
-        "2019": 134,
-        "2020": 139,
-        "2021": 133,
-        "2022": 133,
-        "2023": 180,
-        "2024": 206,
+        "2019": 133,
+        "2020": 137,
+        "2021": 131,
+        "2022": 132,
+        "2023": 178,
+        "2024": 204,
         "2025": 235,
-        "2026": 176
+        "2026": 185
       },
       "topRecent": [
         {
           "steamId": 3241660,
           "name": "R.E.P.O.",
-          "copiesSold": 20398555,
+          "copiesSold": 20495902,
           "price": 9.99,
           "reviewScore": 96,
           "publisherClass": "AA",
@@ -891,7 +892,7 @@
         {
           "steamId": 3527290,
           "name": "PEAK",
-          "copiesSold": 19327800,
+          "copiesSold": 19423684,
           "price": 7.99,
           "reviewScore": 94,
           "publisherClass": "AA",
@@ -900,7 +901,7 @@
         {
           "steamId": 1966720,
           "name": "Lethal Company",
-          "copiesSold": 16570045,
+          "copiesSold": 16563957,
           "price": 9.99,
           "reviewScore": 97,
           "publisherClass": "AA",
@@ -909,7 +910,7 @@
         {
           "steamId": 1326470,
           "name": "Sons Of The Forest",
-          "copiesSold": 15843686,
+          "copiesSold": 15930329,
           "price": 29.99,
           "reviewScore": 88,
           "publisherClass": "AA",
@@ -918,7 +919,7 @@
         {
           "steamId": 251570,
           "name": "7 Days to Die",
-          "copiesSold": 15588883,
+          "copiesSold": 15603405,
           "price": 44.99,
           "reviewScore": 87,
           "publisherClass": "AA",
@@ -927,7 +928,7 @@
         {
           "steamId": 1144200,
           "name": "Ready or Not",
-          "copiesSold": 9508480,
+          "copiesSold": 9570359,
           "price": 49.99,
           "reviewScore": 79,
           "publisherClass": "AA",
@@ -936,7 +937,7 @@
         {
           "steamId": 1943950,
           "name": "Escape the Backrooms",
-          "copiesSold": 8370617,
+          "copiesSold": 8444331,
           "price": 9.99,
           "reviewScore": 90,
           "publisherClass": "AA",
@@ -945,7 +946,7 @@
         {
           "steamId": 2835570,
           "name": "Buckshot Roulette",
-          "copiesSold": 8325014,
+          "copiesSold": 8340392,
           "price": 2.99,
           "reviewScore": 95,
           "publisherClass": "Indie",
@@ -954,7 +955,7 @@
         {
           "steamId": 3097560,
           "name": "Liar's Bar",
-          "copiesSold": 8120729,
+          "copiesSold": 8160270,
           "price": 6.99,
           "reviewScore": 90,
           "publisherClass": "Indie",
@@ -963,22 +964,22 @@
         {
           "steamId": 2694490,
           "name": "Path of Exile 2",
-          "copiesSold": 6325401,
+          "copiesSold": 6338805,
           "price": 29.99,
           "reviewScore": 75,
           "publisherClass": "AA",
           "year": 2024
         }
       ],
-      "heatTop10Recent": 128379210,
-      "medianRecentCopies": 43616,
+      "heatTop10Recent": 128871434,
+      "medianRecentCopies": 43910,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "Psychological Horror": {
       "tags": [
         "Psychological Horror"
       ],
-      "totalAllTime": 10405,
+      "totalAllTime": 10455,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
@@ -992,23 +993,23 @@
         "2013": 16,
         "2014": 53,
         "2015": 86,
-        "2016": 112,
-        "2017": 128,
-        "2018": 112,
-        "2019": 135,
-        "2020": 148,
-        "2021": 138,
-        "2022": 151,
-        "2023": 190,
+        "2016": 110,
+        "2017": 127,
+        "2018": 114,
+        "2019": 131,
+        "2020": 147,
+        "2021": 139,
+        "2022": 147,
+        "2023": 193,
         "2024": 244,
         "2025": 262,
-        "2026": 194
+        "2026": 200
       },
       "topRecent": [
         {
           "steamId": 2767030,
           "name": "Marvel Rivals",
-          "copiesSold": 27697682,
+          "copiesSold": 27563345,
           "price": 0,
           "reviewScore": 75,
           "publisherClass": "AAA",
@@ -1017,7 +1018,7 @@
         {
           "steamId": 1966720,
           "name": "Lethal Company",
-          "copiesSold": 16570045,
+          "copiesSold": 16563957,
           "price": 9.99,
           "reviewScore": 97,
           "publisherClass": "AA",
@@ -1026,7 +1027,7 @@
         {
           "steamId": 553850,
           "name": "HELLDIVERS™ 2",
-          "copiesSold": 15450891,
+          "copiesSold": 14967603,
           "price": 39.99,
           "reviewScore": 76,
           "publisherClass": "AAA",
@@ -1035,16 +1036,25 @@
         {
           "steamId": 1144200,
           "name": "Ready or Not",
-          "copiesSold": 9508480,
+          "copiesSold": 9570359,
           "price": 49.99,
           "reviewScore": 79,
           "publisherClass": "AA",
           "year": 2023
         },
         {
+          "steamId": 4001890,
+          "name": "How to Fish",
+          "copiesSold": 8653937,
+          "price": 7.99,
+          "reviewScore": 95,
+          "publisherClass": "Indie",
+          "year": 2026
+        },
+        {
           "steamId": 1943950,
           "name": "Escape the Backrooms",
-          "copiesSold": 8370617,
+          "copiesSold": 8444331,
           "price": 9.99,
           "reviewScore": 90,
           "publisherClass": "AA",
@@ -1053,58 +1063,49 @@
         {
           "steamId": 2835570,
           "name": "Buckshot Roulette",
-          "copiesSold": 8325014,
+          "copiesSold": 8340392,
           "price": 2.99,
           "reviewScore": 95,
           "publisherClass": "Indie",
           "year": 2024
         },
         {
-          "steamId": 4001890,
-          "name": "How to Fish",
-          "copiesSold": 8148857,
-          "price": 7.99,
-          "reviewScore": 95,
-          "publisherClass": "Indie",
-          "year": 2026
-        },
-        {
           "steamId": 3949040,
           "name": "RV There Yet?",
-          "copiesSold": 7256903,
+          "copiesSold": 7343975,
           "price": 7.99,
           "reviewScore": 90,
           "publisherClass": "Indie",
           "year": 2025
         },
         {
+          "steamId": 1304930,
+          "name": "The Outlast Trials",
+          "copiesSold": 6335487,
+          "price": 39.99,
+          "reviewScore": 92,
+          "publisherClass": "AA",
+          "year": 2024
+        },
+        {
           "steamId": 2050650,
           "name": "Resident Evil 4",
-          "copiesSold": 6122257,
+          "copiesSold": 6181039,
           "price": 39.99,
           "reviewScore": 97,
           "publisherClass": "AAA",
           "year": 2023
-        },
-        {
-          "steamId": 2881650,
-          "name": "Content Warning",
-          "copiesSold": 5771222,
-          "price": 7.99,
-          "reviewScore": 94,
-          "publisherClass": "AA",
-          "year": 2024
         }
       ],
-      "heatTop10Recent": 113221968,
-      "medianRecentCopies": 29918,
+      "heatTop10Recent": 113964425,
+      "medianRecentCopies": 30328,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "City Builder": {
       "tags": [
         "City Builder"
       ],
-      "totalAllTime": 2396,
+      "totalAllTime": 2412,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
@@ -1124,17 +1125,17 @@
         "2019": 96,
         "2020": 100,
         "2021": 163,
-        "2022": 190,
+        "2022": 189,
         "2023": 241,
-        "2024": 273,
-        "2025": 366,
-        "2026": 334
+        "2024": 272,
+        "2025": 362,
+        "2026": 340
       },
       "topRecent": [
         {
           "steamId": 1363080,
           "name": "Manor Lords",
-          "copiesSold": 3553334,
+          "copiesSold": 3547150,
           "price": 39.99,
           "reviewScore": 84,
           "publisherClass": "AA",
@@ -1143,7 +1144,7 @@
         {
           "steamId": 949230,
           "name": "Cities: Skylines II",
-          "copiesSold": 2356934,
+          "copiesSold": 2364941,
           "price": 49.99,
           "reviewScore": 56,
           "publisherClass": "AAA",
@@ -1152,7 +1153,7 @@
         {
           "steamId": 1062090,
           "name": "Timberborn",
-          "copiesSold": 1980428,
+          "copiesSold": 2018154,
           "price": 34.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -1161,7 +1162,7 @@
         {
           "steamId": 4025700,
           "name": "Heartopia",
-          "copiesSold": 1824008,
+          "copiesSold": 1854834,
           "price": 0,
           "reviewScore": 66,
           "publisherClass": "AA",
@@ -1170,8 +1171,8 @@
         {
           "steamId": 1295660,
           "name": "Sid Meier's Civilization VII",
-          "copiesSold": 1737922,
-          "price": 69.99,
+          "copiesSold": 1758459,
+          "price": 99.99,
           "reviewScore": 47,
           "publisherClass": "AAA",
           "year": 2025
@@ -1179,7 +1180,7 @@
         {
           "steamId": 24010,
           "name": "Train Simulator Classic",
-          "copiesSold": 1732197,
+          "copiesSold": 1734265,
           "price": 29.99,
           "reviewScore": 72,
           "publisherClass": "Indie",
@@ -1188,7 +1189,7 @@
         {
           "steamId": 2456740,
           "name": "inZOI",
-          "copiesSold": 1722347,
+          "copiesSold": 1709659,
           "price": 39.99,
           "reviewScore": 77,
           "publisherClass": "AAA",
@@ -1197,7 +1198,7 @@
         {
           "steamId": 1336490,
           "name": "Against the Storm",
-          "copiesSold": 1671142,
+          "copiesSold": 1678105,
           "price": 29.99,
           "reviewScore": 94,
           "publisherClass": "AA",
@@ -1206,7 +1207,7 @@
         {
           "steamId": 2239150,
           "name": "Thronefall",
-          "copiesSold": 1613175,
+          "copiesSold": 1620104,
           "price": 12.99,
           "reviewScore": 96,
           "publisherClass": "AA",
@@ -1215,23 +1216,23 @@
         {
           "steamId": 1044720,
           "name": "Farthest Frontier",
-          "copiesSold": 1487359,
+          "copiesSold": 1499384,
           "price": 34.99,
           "reviewScore": 86,
           "publisherClass": "AA",
           "year": 2025
         }
       ],
-      "heatTop10Recent": 19678846,
-      "medianRecentCopies": 1491,
+      "heatTop10Recent": 19785055,
+      "medianRecentCopies": 1548,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "Colony Sim": {
       "tags": [
         "Colony Sim"
       ],
-      "totalAllTime": 1200,
-      "pulled": 1200,
+      "totalAllTime": 1214,
+      "pulled": 1214,
       "partial": false,
       "releasesPerYear": {
         "2008": 5,
@@ -1251,13 +1252,13 @@
         "2023": 157,
         "2024": 151,
         "2025": 222,
-        "2026": 273
+        "2026": 287
       },
       "topRecent": [
         {
           "steamId": 1363080,
           "name": "Manor Lords",
-          "copiesSold": 3553334,
+          "copiesSold": 3547150,
           "price": 39.99,
           "reviewScore": 84,
           "publisherClass": "AA",
@@ -1266,7 +1267,7 @@
         {
           "steamId": 1062090,
           "name": "Timberborn",
-          "copiesSold": 1980428,
+          "copiesSold": 2018154,
           "price": 34.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -1275,7 +1276,7 @@
         {
           "steamId": 1336490,
           "name": "Against the Storm",
-          "copiesSold": 1671142,
+          "copiesSold": 1678105,
           "price": 29.99,
           "reviewScore": 94,
           "publisherClass": "AA",
@@ -1284,7 +1285,7 @@
         {
           "steamId": 1044720,
           "name": "Farthest Frontier",
-          "copiesSold": 1487359,
+          "copiesSold": 1499384,
           "price": 34.99,
           "reviewScore": 86,
           "publisherClass": "AA",
@@ -1293,7 +1294,7 @@
         {
           "steamId": 2763740,
           "name": "Revolution Idle",
-          "copiesSold": 1267969,
+          "copiesSold": 1267385,
           "price": 0,
           "reviewScore": 87,
           "publisherClass": "Indie",
@@ -1302,7 +1303,7 @@
         {
           "steamId": 690830,
           "name": "Foundation",
-          "copiesSold": 1218334,
+          "copiesSold": 1230932,
           "price": 34.99,
           "reviewScore": 87,
           "publisherClass": "Indie",
@@ -1311,50 +1312,50 @@
         {
           "steamId": 784150,
           "name": "Workers & Resources: Soviet Republic",
-          "copiesSold": 1082916,
+          "copiesSold": 1083499,
           "price": 39.99,
           "reviewScore": 91,
           "publisherClass": "AA",
           "year": 2024
         },
         {
-          "steamId": 2646460,
-          "name": "Soulmask",
-          "copiesSold": 962646,
-          "price": 29.99,
-          "reviewScore": 77,
-          "publisherClass": "Indie",
-          "year": 2026
-        },
-        {
           "steamId": 1272320,
           "name": "Diplomacy is Not an Option",
-          "copiesSold": 961934,
+          "copiesSold": 976249,
           "price": 29.99,
           "reviewScore": 86,
           "publisherClass": "Indie",
           "year": 2024
         },
         {
+          "steamId": 2646460,
+          "name": "Soulmask",
+          "copiesSold": 961468,
+          "price": 29.99,
+          "reviewScore": 77,
+          "publisherClass": "Indie",
+          "year": 2026
+        },
+        {
           "steamId": 1601580,
           "name": "Frostpunk 2",
-          "copiesSold": 942880,
+          "copiesSold": 957620,
           "price": 44.99,
           "reviewScore": 75,
           "publisherClass": "AA",
           "year": 2024
         }
       ],
-      "heatTop10Recent": 15128942,
-      "medianRecentCopies": 1122,
+      "heatTop10Recent": 15219946,
+      "medianRecentCopies": 1024,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "Farming Sim": {
       "tags": [
         "Farming Sim"
       ],
-      "totalAllTime": 1555,
-      "pulled": 1555,
+      "totalAllTime": 1568,
+      "pulled": 1568,
       "partial": false,
       "releasesPerYear": {
         "2008": 1,
@@ -1372,15 +1373,15 @@
         "2021": 94,
         "2022": 134,
         "2023": 190,
-        "2024": 240,
+        "2024": 239,
         "2025": 370,
-        "2026": 384
+        "2026": 398
       },
       "topRecent": [
         {
           "steamId": 1868140,
           "name": "DAVE THE DIVER",
-          "copiesSold": 7331737,
+          "copiesSold": 7386787,
           "price": 19.99,
           "reviewScore": 96,
           "publisherClass": "AA",
@@ -1389,7 +1390,7 @@
         {
           "steamId": 2707930,
           "name": "Palia",
-          "copiesSold": 4127953,
+          "copiesSold": 4109011,
           "price": 0,
           "reviewScore": 86,
           "publisherClass": "Indie",
@@ -1398,7 +1399,7 @@
         {
           "steamId": 1119730,
           "name": "Ranch Simulator: Build, Hunt, Farm",
-          "copiesSold": 2769335,
+          "copiesSold": 2785827,
           "price": 24.99,
           "reviewScore": 79,
           "publisherClass": "Indie",
@@ -1407,7 +1408,7 @@
         {
           "steamId": 2300320,
           "name": "Farming Simulator 25",
-          "copiesSold": 2199979,
+          "copiesSold": 2223056,
           "price": 29.99,
           "reviewScore": 87,
           "publisherClass": "AA",
@@ -1416,7 +1417,7 @@
         {
           "steamId": 1062090,
           "name": "Timberborn",
-          "copiesSold": 1980428,
+          "copiesSold": 2018154,
           "price": 34.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -1425,7 +1426,7 @@
         {
           "steamId": 1062520,
           "name": "Dinkum",
-          "copiesSold": 1646314,
+          "copiesSold": 1632865,
           "price": 19.99,
           "reviewScore": 92,
           "publisherClass": "AAA",
@@ -1434,7 +1435,7 @@
         {
           "steamId": 1432860,
           "name": "Sun Haven",
-          "copiesSold": 1198274,
+          "copiesSold": 1202853,
           "price": 24.99,
           "reviewScore": 80,
           "publisherClass": "Indie",
@@ -1443,7 +1444,7 @@
         {
           "steamId": 1084600,
           "name": "My Time at Sandrock",
-          "copiesSold": 1147583,
+          "copiesSold": 1140844,
           "price": 39.99,
           "reviewScore": 88,
           "publisherClass": "Indie",
@@ -1452,7 +1453,7 @@
         {
           "steamId": 1158160,
           "name": "Coral Island",
-          "copiesSold": 1109635,
+          "copiesSold": 1114857,
           "price": 29.99,
           "reviewScore": 89,
           "publisherClass": "AA",
@@ -1461,22 +1462,22 @@
         {
           "steamId": 2060160,
           "name": "The Farmer Was Replaced",
-          "copiesSold": 1061225,
+          "copiesSold": 1061247,
           "price": 9.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
           "year": 2025
         }
       ],
-      "heatTop10Recent": 24572463,
-      "medianRecentCopies": 611,
+      "heatTop10Recent": 24675501,
+      "medianRecentCopies": 576,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "Automation": {
       "tags": [
         "Automation"
       ],
-      "totalAllTime": 2162,
+      "totalAllTime": 2190,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
@@ -1487,19 +1488,19 @@
         "2017": 7,
         "2018": 7,
         "2019": 24,
-        "2020": 46,
-        "2021": 118,
-        "2022": 147,
+        "2020": 45,
+        "2021": 97,
+        "2022": 142,
         "2023": 152,
         "2024": 252,
-        "2025": 412,
-        "2026": 813
+        "2025": 413,
+        "2026": 839
       },
       "topRecent": [
         {
           "steamId": 1623730,
           "name": "Palworld",
-          "copiesSold": 20716279,
+          "copiesSold": 20765182,
           "price": 29.99,
           "reviewScore": 95,
           "publisherClass": "AA",
@@ -1508,7 +1509,7 @@
         {
           "steamId": 3164500,
           "name": "Schedule I",
-          "copiesSold": 8971308,
+          "copiesSold": 9003024,
           "price": 19.99,
           "reviewScore": 98,
           "publisherClass": "AA",
@@ -1517,7 +1518,7 @@
         {
           "steamId": 526870,
           "name": "Satisfactory",
-          "copiesSold": 7642143,
+          "copiesSold": 7664397,
           "price": 39.99,
           "reviewScore": 97,
           "publisherClass": "AAA",
@@ -1526,7 +1527,7 @@
         {
           "steamId": 1284190,
           "name": "The Planet Crafter",
-          "copiesSold": 2440128,
+          "copiesSold": 2445368,
           "price": 23.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -1535,7 +1536,7 @@
         {
           "steamId": 1169040,
           "name": "Necesse",
-          "copiesSold": 2354644,
+          "copiesSold": 2348600,
           "price": 14.99,
           "reviewScore": 93,
           "publisherClass": "Indie",
@@ -1544,7 +1545,7 @@
         {
           "steamId": 1062090,
           "name": "Timberborn",
-          "copiesSold": 1980428,
+          "copiesSold": 2018154,
           "price": 34.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -1553,7 +1554,7 @@
         {
           "steamId": 2763740,
           "name": "Revolution Idle",
-          "copiesSold": 1267969,
+          "copiesSold": 1267385,
           "price": 0,
           "reviewScore": 87,
           "publisherClass": "Indie",
@@ -1562,7 +1563,7 @@
         {
           "steamId": 2060160,
           "name": "The Farmer Was Replaced",
-          "copiesSold": 1061225,
+          "copiesSold": 1061247,
           "price": 9.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -1571,7 +1572,7 @@
         {
           "steamId": 3606890,
           "name": "Upload Labs",
-          "copiesSold": 1054711,
+          "copiesSold": 1058131,
           "price": 0,
           "reviewScore": 92,
           "publisherClass": "Indie",
@@ -1580,22 +1581,22 @@
         {
           "steamId": 2646460,
           "name": "Soulmask",
-          "copiesSold": 962646,
+          "copiesSold": 961468,
           "price": 29.99,
           "reviewScore": 77,
           "publisherClass": "Indie",
           "year": 2026
         }
       ],
-      "heatTop10Recent": 48451481,
-      "medianRecentCopies": 453,
+      "heatTop10Recent": 48592956,
+      "medianRecentCopies": 444,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "Idler": {
       "tags": [
         "Idler"
       ],
-      "totalAllTime": 4557,
+      "totalAllTime": 4613,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
@@ -1604,20 +1605,20 @@
         "2016": 10,
         "2017": 26,
         "2018": 21,
-        "2019": 23,
-        "2020": 46,
-        "2021": 124,
-        "2022": 152,
-        "2023": 175,
-        "2024": 257,
-        "2025": 464,
-        "2026": 691
+        "2019": 22,
+        "2020": 45,
+        "2021": 123,
+        "2022": 150,
+        "2023": 176,
+        "2024": 255,
+        "2025": 456,
+        "2026": 705
       },
       "topRecent": [
         {
           "steamId": 2923300,
           "name": "Banana",
-          "copiesSold": 35314025,
+          "copiesSold": 35798997,
           "price": 0,
           "reviewScore": 82,
           "publisherClass": "Indie",
@@ -1626,7 +1627,7 @@
         {
           "steamId": 3419430,
           "name": "Bongo Cat",
-          "copiesSold": 10518513,
+          "copiesSold": 10670589,
           "price": 0,
           "reviewScore": 97,
           "publisherClass": "Indie",
@@ -1635,7 +1636,7 @@
         {
           "steamId": 1476970,
           "name": "IdleOn - The Incremental MMO",
-          "copiesSold": 3786740,
+          "copiesSold": 3642171,
           "price": 0,
           "reviewScore": 77,
           "publisherClass": "AA",
@@ -1644,7 +1645,7 @@
         {
           "steamId": 3678970,
           "name": "TBH: Task Bar Hero",
-          "copiesSold": 3123527,
+          "copiesSold": 3139167,
           "price": 0,
           "reviewScore": 54,
           "publisherClass": "Indie",
@@ -1653,7 +1654,7 @@
         {
           "steamId": 3948120,
           "name": "Scritchy Scratchy",
-          "copiesSold": 1516681,
+          "copiesSold": 1517097,
           "price": 6.99,
           "reviewScore": 94,
           "publisherClass": "Indie",
@@ -1662,7 +1663,7 @@
         {
           "steamId": 2763740,
           "name": "Revolution Idle",
-          "copiesSold": 1267969,
+          "copiesSold": 1267385,
           "price": 0,
           "reviewScore": 87,
           "publisherClass": "Indie",
@@ -1671,7 +1672,7 @@
         {
           "steamId": 2060160,
           "name": "The Farmer Was Replaced",
-          "copiesSold": 1061225,
+          "copiesSold": 1061247,
           "price": 9.99,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -1680,7 +1681,7 @@
         {
           "steamId": 3606890,
           "name": "Upload Labs",
-          "copiesSold": 1054711,
+          "copiesSold": 1058131,
           "price": 0,
           "reviewScore": 92,
           "publisherClass": "Indie",
@@ -1689,31 +1690,31 @@
         {
           "steamId": 1013320,
           "name": "Firestone – Idle Clicker Online RPG",
-          "copiesSold": 1009272,
+          "copiesSold": 1015970,
           "price": 0,
           "reviewScore": 77,
           "publisherClass": "Indie",
           "year": 2024
         },
         {
-          "steamId": 3231090,
-          "name": "Amarillo's Butt Slapper",
-          "copiesSold": 842103,
+          "steamId": 2471100,
+          "name": "Unnamed Space Idle",
+          "copiesSold": 744656,
           "price": 0,
-          "reviewScore": 89,
+          "reviewScore": 92,
           "publisherClass": "Indie",
-          "year": 2024
+          "year": 2023
         }
       ],
-      "heatTop10Recent": 59494766,
-      "medianRecentCopies": 2772,
+      "heatTop10Recent": 59915410,
+      "medianRecentCopies": 2790,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "Tower Defense": {
       "tags": [
         "Tower Defense"
       ],
-      "totalAllTime": 3293,
+      "totalAllTime": 3311,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
@@ -1729,19 +1730,19 @@
         "2017": 86,
         "2018": 79,
         "2019": 84,
-        "2020": 102,
+        "2020": 100,
         "2021": 137,
-        "2022": 137,
+        "2022": 136,
         "2023": 180,
-        "2024": 305,
-        "2025": 293,
-        "2026": 358
+        "2024": 304,
+        "2025": 286,
+        "2026": 369
       },
       "topRecent": [
         {
           "steamId": 251570,
           "name": "7 Days to Die",
-          "copiesSold": 15588883,
+          "copiesSold": 15603405,
           "price": 44.99,
           "reviewScore": 87,
           "publisherClass": "AA",
@@ -1750,7 +1751,7 @@
         {
           "steamId": 2239150,
           "name": "Thronefall",
-          "copiesSold": 1613175,
+          "copiesSold": 1620104,
           "price": 12.99,
           "reviewScore": 96,
           "publisherClass": "AA",
@@ -1759,7 +1760,7 @@
         {
           "steamId": 1272320,
           "name": "Diplomacy is Not an Option",
-          "copiesSold": 961934,
+          "copiesSold": 976249,
           "price": 29.99,
           "reviewScore": 86,
           "publisherClass": "Indie",
@@ -1768,7 +1769,7 @@
         {
           "steamId": 2140020,
           "name": "Stronghold: Definitive Edition",
-          "copiesSold": 746558,
+          "copiesSold": 745631,
           "price": 14.99,
           "reviewScore": 87,
           "publisherClass": "Indie",
@@ -1777,7 +1778,7 @@
         {
           "steamId": 2187290,
           "name": "Wall World",
-          "copiesSold": 715823,
+          "copiesSold": 718467,
           "price": 6.99,
           "reviewScore": 91,
           "publisherClass": "Indie",
@@ -1786,7 +1787,7 @@
         {
           "steamId": 1105670,
           "name": "The Last Spell",
-          "copiesSold": 694909,
+          "copiesSold": 695856,
           "price": 24.99,
           "reviewScore": 91,
           "publisherClass": "AA",
@@ -1795,7 +1796,7 @@
         {
           "steamId": 2849080,
           "name": "Kingdom Rush 5: Alliance TD",
-          "copiesSold": 676616,
+          "copiesSold": 687875,
           "price": 19.99,
           "reviewScore": 88,
           "publisherClass": "Indie",
@@ -1804,7 +1805,7 @@
         {
           "steamId": 2753900,
           "name": "The King is Watching",
-          "copiesSold": 668327,
+          "copiesSold": 675301,
           "price": 14.99,
           "reviewScore": 89,
           "publisherClass": "AA",
@@ -1813,7 +1814,7 @@
         {
           "steamId": 2072560,
           "name": "DRAGON BALL GEKISHIN SQUADRA",
-          "copiesSold": 633916,
+          "copiesSold": 636095,
           "price": 0,
           "reviewScore": 63,
           "publisherClass": "AAA",
@@ -1822,23 +1823,23 @@
         {
           "steamId": 3024040,
           "name": "Stronghold Crusader: Definitive Edition",
-          "copiesSold": 598300,
+          "copiesSold": 605541,
           "price": 19.99,
           "reviewScore": 92,
           "publisherClass": "Indie",
           "year": 2025
         }
       ],
-      "heatTop10Recent": 22898441,
-      "medianRecentCopies": 550,
+      "heatTop10Recent": 22964524,
+      "medianRecentCopies": 558,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "4X": {
       "tags": [
         "4X"
       ],
-      "totalAllTime": 663,
-      "pulled": 663,
+      "totalAllTime": 668,
+      "pulled": 668,
       "partial": false,
       "releasesPerYear": {
         "2006": 5,
@@ -1852,22 +1853,22 @@
         "2014": 17,
         "2015": 24,
         "2016": 19,
-        "2017": 24,
+        "2017": 25,
         "2018": 23,
         "2019": 33,
         "2020": 29,
         "2021": 51,
-        "2022": 53,
+        "2022": 54,
         "2023": 81,
-        "2024": 80,
+        "2024": 81,
         "2025": 89,
-        "2026": 100
+        "2026": 102
       },
       "topRecent": [
         {
           "steamId": 1363080,
           "name": "Manor Lords",
-          "copiesSold": 3553334,
+          "copiesSold": 3547150,
           "price": 39.99,
           "reviewScore": 84,
           "publisherClass": "AA",
@@ -1876,8 +1877,8 @@
         {
           "steamId": 1295660,
           "name": "Sid Meier's Civilization VII",
-          "copiesSold": 1737922,
-          "price": 69.99,
+          "copiesSold": 1758459,
+          "price": 99.99,
           "reviewScore": 47,
           "publisherClass": "AAA",
           "year": 2025
@@ -1885,7 +1886,7 @@
         {
           "steamId": 1336490,
           "name": "Against the Storm",
-          "copiesSold": 1671142,
+          "copiesSold": 1678105,
           "price": 29.99,
           "reviewScore": 94,
           "publisherClass": "AA",
@@ -1894,7 +1895,7 @@
         {
           "steamId": 1044720,
           "name": "Farthest Frontier",
-          "copiesSold": 1487359,
+          "copiesSold": 1499384,
           "price": 34.99,
           "reviewScore": 86,
           "publisherClass": "AA",
@@ -1903,7 +1904,7 @@
         {
           "steamId": 3105440,
           "name": "Heroes of Might and Magic: Olden Era",
-          "copiesSold": 1217590,
+          "copiesSold": 1222801,
           "price": 39.99,
           "reviewScore": 87,
           "publisherClass": "AA",
@@ -1912,7 +1913,7 @@
         {
           "steamId": 784150,
           "name": "Workers & Resources: Soviet Republic",
-          "copiesSold": 1082916,
+          "copiesSold": 1083499,
           "price": 39.99,
           "reviewScore": 91,
           "publisherClass": "AA",
@@ -1921,7 +1922,7 @@
         {
           "steamId": 1669000,
           "name": "Age of Wonders 4",
-          "copiesSold": 1018561,
+          "copiesSold": 1025649,
           "price": 49.99,
           "reviewScore": 81,
           "publisherClass": "AAA",
@@ -1930,7 +1931,7 @@
         {
           "steamId": 1601580,
           "name": "Frostpunk 2",
-          "copiesSold": 942880,
+          "copiesSold": 957620,
           "price": 44.99,
           "reviewScore": 75,
           "publisherClass": "AA",
@@ -1939,7 +1940,7 @@
         {
           "steamId": 463530,
           "name": "Empires of the Undergrowth",
-          "copiesSold": 831148,
+          "copiesSold": 840662,
           "price": 29.99,
           "reviewScore": 94,
           "publisherClass": "AA",
@@ -1948,23 +1949,23 @@
         {
           "steamId": 867210,
           "name": "Songs of Conquest",
-          "copiesSold": 759957,
+          "copiesSold": 763080,
           "price": 29.99,
           "reviewScore": 86,
           "publisherClass": "AAA",
           "year": 2024
         }
       ],
-      "heatTop10Recent": 14302809,
-      "medianRecentCopies": 766,
+      "heatTop10Recent": 14376409,
+      "medianRecentCopies": 806,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "Grand Strategy": {
       "tags": [
         "Grand Strategy"
       ],
-      "totalAllTime": 1327,
-      "pulled": 1327,
+      "totalAllTime": 1339,
+      "pulled": 1339,
       "partial": false,
       "releasesPerYear": {
         "2006": 2,
@@ -1973,27 +1974,27 @@
         "2009": 11,
         "2010": 13,
         "2011": 8,
-        "2012": 12,
+        "2012": 11,
         "2013": 6,
         "2014": 25,
         "2015": 28,
         "2016": 34,
-        "2017": 42,
-        "2018": 36,
+        "2017": 43,
+        "2018": 37,
         "2019": 54,
         "2020": 103,
         "2021": 96,
         "2022": 119,
         "2023": 135,
         "2024": 167,
-        "2025": 192,
-        "2026": 237
+        "2025": 193,
+        "2026": 247
       },
       "topRecent": [
         {
           "steamId": 1363080,
           "name": "Manor Lords",
-          "copiesSold": 3553334,
+          "copiesSold": 3547150,
           "price": 39.99,
           "reviewScore": 84,
           "publisherClass": "AA",
@@ -2002,8 +2003,8 @@
         {
           "steamId": 1295660,
           "name": "Sid Meier's Civilization VII",
-          "copiesSold": 1737922,
-          "price": 69.99,
+          "copiesSold": 1758459,
+          "price": 99.99,
           "reviewScore": 47,
           "publisherClass": "AAA",
           "year": 2025
@@ -2011,7 +2012,7 @@
         {
           "steamId": 1336490,
           "name": "Against the Storm",
-          "copiesSold": 1671142,
+          "copiesSold": 1678105,
           "price": 29.99,
           "reviewScore": 94,
           "publisherClass": "AA",
@@ -2020,7 +2021,7 @@
         {
           "steamId": 2763740,
           "name": "Revolution Idle",
-          "copiesSold": 1267969,
+          "copiesSold": 1267385,
           "price": 0,
           "reviewScore": 87,
           "publisherClass": "Indie",
@@ -2029,7 +2030,7 @@
         {
           "steamId": 3105440,
           "name": "Heroes of Might and Magic: Olden Era",
-          "copiesSold": 1217590,
+          "copiesSold": 1222801,
           "price": 39.99,
           "reviewScore": 87,
           "publisherClass": "AA",
@@ -2038,7 +2039,7 @@
         {
           "steamId": 784150,
           "name": "Workers & Resources: Soviet Republic",
-          "copiesSold": 1082916,
+          "copiesSold": 1083499,
           "price": 39.99,
           "reviewScore": 91,
           "publisherClass": "AA",
@@ -2047,7 +2048,7 @@
         {
           "steamId": 1669000,
           "name": "Age of Wonders 4",
-          "copiesSold": 1018561,
+          "copiesSold": 1025649,
           "price": 49.99,
           "reviewScore": 81,
           "publisherClass": "AAA",
@@ -2056,41 +2057,41 @@
         {
           "steamId": 463530,
           "name": "Empires of the Undergrowth",
-          "copiesSold": 831148,
+          "copiesSold": 840662,
           "price": 29.99,
           "reviewScore": 94,
           "publisherClass": "AA",
           "year": 2024
         },
         {
-          "steamId": 3556750,
-          "name": "Warhammer 40,000: Dawn of War - Definitive Edition",
-          "copiesSold": 672736,
-          "price": 29.99,
-          "reviewScore": 86,
-          "publisherClass": "AA",
-          "year": 2025
-        },
-        {
           "steamId": 3450310,
           "name": "Europa Universalis V",
-          "copiesSold": 672157,
+          "copiesSold": 676205,
           "price": 59.99,
           "reviewScore": 66,
           "publisherClass": "AAA",
           "year": 2025
+        },
+        {
+          "steamId": 3556750,
+          "name": "Warhammer 40,000: Dawn of War - Definitive Edition",
+          "copiesSold": 675408,
+          "price": 29.99,
+          "reviewScore": 86,
+          "publisherClass": "AA",
+          "year": 2025
         }
       ],
-      "heatTop10Recent": 13725475,
-      "medianRecentCopies": 499,
+      "heatTop10Recent": 13775323,
+      "medianRecentCopies": 491,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "CRPG": {
       "tags": [
         "CRPG"
       ],
-      "totalAllTime": 1846,
-      "pulled": 1846,
+      "totalAllTime": 1851,
+      "pulled": 1851,
       "partial": false,
       "releasesPerYear": {
         "2009": 4,
@@ -2110,13 +2111,13 @@
         "2023": 232,
         "2024": 308,
         "2025": 313,
-        "2026": 310
+        "2026": 315
       },
       "topRecent": [
         {
           "steamId": 1086940,
           "name": "Baldur's Gate 3",
-          "copiesSold": 16917216,
+          "copiesSold": 16998039,
           "price": 59.99,
           "reviewScore": 97,
           "publisherClass": "AAA",
@@ -2125,7 +2126,7 @@
         {
           "steamId": 2349820,
           "name": "Hero's Land",
-          "copiesSold": 2853158,
+          "copiesSold": 2887057,
           "price": 0,
           "reviewScore": 55,
           "publisherClass": "Indie",
@@ -2134,7 +2135,7 @@
         {
           "steamId": 2186680,
           "name": "Warhammer 40,000: Rogue Trader",
-          "copiesSold": 1578315,
+          "copiesSold": 1601462,
           "price": 49.99,
           "reviewScore": 88,
           "publisherClass": "AA",
@@ -2143,7 +2144,7 @@
         {
           "steamId": 1940340,
           "name": "Darkest Dungeon® II",
-          "copiesSold": 1169144,
+          "copiesSold": 1177599,
           "price": 39.99,
           "reviewScore": 75,
           "publisherClass": "AA",
@@ -2152,7 +2153,7 @@
         {
           "steamId": 1416920,
           "name": "Chinese Online Game",
-          "copiesSold": 942398,
+          "copiesSold": 946560,
           "price": 9.99,
           "reviewScore": 86,
           "publisherClass": "Indie",
@@ -2161,7 +2162,7 @@
         {
           "steamId": 1331550,
           "name": "Big Ambitions",
-          "copiesSold": 887695,
+          "copiesSold": 903494,
           "price": 25.99,
           "reviewScore": 92,
           "publisherClass": "Indie",
@@ -2170,7 +2171,7 @@
         {
           "steamId": 1989270,
           "name": "Slay the Princess — The Pristine Cut",
-          "copiesSold": 867855,
+          "copiesSold": 874195,
           "price": 17.99,
           "reviewScore": 97,
           "publisherClass": "Indie",
@@ -2179,7 +2180,7 @@
         {
           "steamId": 2346550,
           "name": "Rise of Eros",
-          "copiesSold": 776784,
+          "copiesSold": 787650,
           "price": 0,
           "reviewScore": 59,
           "publisherClass": "Indie",
@@ -2188,7 +2189,7 @@
         {
           "steamId": 1535560,
           "name": "Farmer Against Potatoes Idle",
-          "copiesSold": 729874,
+          "copiesSold": 731813,
           "price": 0,
           "reviewScore": 95,
           "publisherClass": "Indie",
@@ -2197,22 +2198,22 @@
         {
           "steamId": 1845910,
           "name": "Dragon Age™: The Veilguard",
-          "copiesSold": 713351,
+          "copiesSold": 714616,
           "price": 59.99,
           "reviewScore": 68,
           "publisherClass": "AAA",
           "year": 2024
         }
       ],
-      "heatTop10Recent": 27435790,
-      "medianRecentCopies": 456,
+      "heatTop10Recent": 27622485,
+      "medianRecentCopies": 449,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "Action RPG": {
       "tags": [
         "Action RPG"
       ],
-      "totalAllTime": 6651,
+      "totalAllTime": 6669,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
@@ -2225,24 +2226,24 @@
         "2012": 21,
         "2013": 18,
         "2014": 59,
-        "2015": 55,
-        "2016": 66,
+        "2015": 56,
+        "2016": 65,
         "2017": 58,
-        "2018": 78,
+        "2018": 77,
         "2019": 64,
         "2020": 100,
         "2021": 140,
-        "2022": 179,
-        "2023": 237,
+        "2022": 180,
+        "2023": 235,
         "2024": 287,
         "2025": 297,
-        "2026": 277
+        "2026": 279
       },
       "topRecent": [
         {
           "steamId": 2358720,
           "name": "Black Myth: Wukong",
-          "copiesSold": 14668866,
+          "copiesSold": 14667939,
           "price": 59.99,
           "reviewScore": 96,
           "publisherClass": "AAA",
@@ -2251,7 +2252,7 @@
         {
           "steamId": 990080,
           "name": "Hogwarts Legacy",
-          "copiesSold": 10363848,
+          "copiesSold": 10414620,
           "price": 59.99,
           "reviewScore": 90,
           "publisherClass": "AAA",
@@ -2260,7 +2261,7 @@
         {
           "steamId": 3564740,
           "name": "Where Winds Meet",
-          "copiesSold": 7932660,
+          "copiesSold": 7979771,
           "price": 0,
           "reviewScore": 86,
           "publisherClass": "AAA",
@@ -2269,7 +2270,7 @@
         {
           "steamId": 1468810,
           "name": "鬼谷八荒 Tale of Immortal",
-          "copiesSold": 6661299,
+          "copiesSold": 6656618,
           "price": 19.99,
           "reviewScore": 56,
           "publisherClass": "AA",
@@ -2278,7 +2279,7 @@
         {
           "steamId": 2074920,
           "name": "The First Descendant",
-          "copiesSold": 6417808,
+          "copiesSold": 6430159,
           "price": 0,
           "reviewScore": 57,
           "publisherClass": "AA",
@@ -2287,7 +2288,7 @@
         {
           "steamId": 2694490,
           "name": "Path of Exile 2",
-          "copiesSold": 6325401,
+          "copiesSold": 6338805,
           "price": 29.99,
           "reviewScore": 75,
           "publisherClass": "AA",
@@ -2296,7 +2297,7 @@
         {
           "steamId": 2246340,
           "name": "Monster Hunter Wilds",
-          "copiesSold": 5727853,
+          "copiesSold": 5740495,
           "price": 39.99,
           "reviewScore": 50,
           "publisherClass": "AAA",
@@ -2305,7 +2306,7 @@
         {
           "steamId": 1203620,
           "name": "Enshrouded",
-          "copiesSold": 5213726,
+          "copiesSold": 5215225,
           "price": 39.99,
           "reviewScore": 86,
           "publisherClass": "AA",
@@ -2314,8 +2315,8 @@
         {
           "steamId": 1903340,
           "name": "Clair Obscur: Expedition 33",
-          "copiesSold": 4633789,
-          "price": 49.99,
+          "copiesSold": 4653343,
+          "price": 59.99,
           "reviewScore": 95,
           "publisherClass": "AA",
           "year": 2025
@@ -2323,38 +2324,38 @@
         {
           "steamId": 1364780,
           "name": "Street Fighter™ 6",
-          "copiesSold": 3952610,
+          "copiesSold": 3967599,
           "price": 39.99,
           "reviewScore": 82,
           "publisherClass": "AAA",
           "year": 2023
         }
       ],
-      "heatTop10Recent": 71897860,
-      "medianRecentCopies": 16506,
+      "heatTop10Recent": 72064574,
+      "medianRecentCopies": 16456,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "Extraction Shooter": {
       "tags": [
         "Extraction Shooter"
       ],
-      "totalAllTime": 112,
-      "pulled": 112,
+      "totalAllTime": 116,
+      "pulled": 116,
       "partial": false,
       "releasesPerYear": {
         "2019": 2,
         "2021": 1,
         "2022": 5,
         "2023": 5,
-        "2024": 19,
+        "2024": 20,
         "2025": 37,
-        "2026": 43
+        "2026": 46
       },
       "topRecent": [
         {
           "steamId": 2507950,
           "name": "Delta Force",
-          "copiesSold": 18763527,
+          "copiesSold": 20579919,
           "price": 0,
           "reviewScore": 58,
           "publisherClass": "AA",
@@ -2363,7 +2364,7 @@
         {
           "steamId": 553850,
           "name": "HELLDIVERS™ 2",
-          "copiesSold": 15450891,
+          "copiesSold": 14967603,
           "price": 39.99,
           "reviewScore": 76,
           "publisherClass": "AAA",
@@ -2372,7 +2373,7 @@
         {
           "steamId": 1808500,
           "name": "ARC Raiders",
-          "copiesSold": 8731588,
+          "copiesSold": 8972094,
           "price": 39.99,
           "reviewScore": 82,
           "publisherClass": "AA",
@@ -2381,16 +2382,16 @@
         {
           "steamId": 2016590,
           "name": "Dark and Darker",
-          "copiesSold": 6211283,
+          "copiesSold": 6218513,
           "price": 0,
-          "reviewScore": 65,
+          "reviewScore": 63,
           "publisherClass": "Indie",
           "year": 2024
         },
         {
           "steamId": 2073620,
           "name": "Arena Breakout: Infinite",
-          "copiesSold": 4777821,
+          "copiesSold": 4819213,
           "price": 0,
           "reviewScore": 74,
           "publisherClass": "Indie",
@@ -2399,16 +2400,16 @@
         {
           "steamId": 3167020,
           "name": "Escape From Duckov",
-          "copiesSold": 4538242,
+          "copiesSold": 4543244,
           "price": 17.99,
-          "reviewScore": 84,
+          "reviewScore": 85,
           "publisherClass": "AA",
           "year": 2025
         },
         {
           "steamId": 3659280,
           "name": "Off The Grid",
-          "copiesSold": 1915481,
+          "copiesSold": 1839636,
           "price": 0,
           "reviewScore": 55,
           "publisherClass": "Indie",
@@ -2417,16 +2418,16 @@
         {
           "steamId": 2479810,
           "name": "Gray Zone Warfare",
-          "copiesSold": 1564148,
+          "copiesSold": 1565739,
           "price": 39.99,
-          "reviewScore": 72,
+          "reviewScore": 73,
           "publisherClass": "Indie",
           "year": 2024
         },
         {
           "steamId": 3124540,
           "name": "Far Far West",
-          "copiesSold": 1450730,
+          "copiesSold": 1478138,
           "price": 19.99,
           "reviewScore": 95,
           "publisherClass": "AA",
@@ -2435,23 +2436,23 @@
         {
           "steamId": 3065800,
           "name": "Marathon",
-          "copiesSold": 1216163,
+          "copiesSold": 1210086,
           "price": 39.99,
           "reviewScore": 77,
           "publisherClass": "AAA",
           "year": 2026
         }
       ],
-      "heatTop10Recent": 64619874,
-      "medianRecentCopies": 15655,
+      "heatTop10Recent": 66194185,
+      "medianRecentCopies": 9346,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "Boomer Shooter": {
       "tags": [
         "Boomer Shooter"
       ],
-      "totalAllTime": 826,
-      "pulled": 826,
+      "totalAllTime": 829,
+      "pulled": 829,
       "partial": false,
       "releasesPerYear": {
         "2007": 7,
@@ -2471,14 +2472,14 @@
         "2022": 29,
         "2023": 46,
         "2024": 171,
-        "2025": 236,
-        "2026": 221
+        "2025": 235,
+        "2026": 225
       },
       "topRecent": [
         {
           "steamId": 2386720,
           "name": "STRAFTAT",
-          "copiesSold": 1785722,
+          "copiesSold": 1788544,
           "price": 0,
           "reviewScore": 96,
           "publisherClass": "Indie",
@@ -2487,16 +2488,16 @@
         {
           "steamId": 3017860,
           "name": "DOOM: The Dark Ages",
-          "copiesSold": 1023025,
+          "copiesSold": 1030502,
           "price": 49.99,
-          "reviewScore": 88,
+          "reviewScore": 89,
           "publisherClass": "AAA",
           "year": 2025
         },
         {
           "steamId": 2005010,
           "name": "Warhammer 40,000: Boltgun",
-          "copiesSold": 882747,
+          "copiesSold": 889813,
           "price": 21.99,
           "reviewScore": 89,
           "publisherClass": "AAA",
@@ -2505,7 +2506,7 @@
         {
           "steamId": 1164940,
           "name": "Trepang2",
-          "copiesSold": 716079,
+          "copiesSold": 719479,
           "price": 29.99,
           "reviewScore": 93,
           "publisherClass": "AA",
@@ -2514,7 +2515,7 @@
         {
           "steamId": 2416450,
           "name": "MOUSE: P.I. For Hire",
-          "copiesSold": 512444,
+          "copiesSold": 523115,
           "price": 29.99,
           "reviewScore": 94,
           "publisherClass": "Indie",
@@ -2523,7 +2524,7 @@
         {
           "steamId": 1494810,
           "name": "Mortal Sin",
-          "copiesSold": 325338,
+          "copiesSold": 325277,
           "price": 24.99,
           "reviewScore": 94,
           "publisherClass": "Indie",
@@ -2541,40 +2542,40 @@
         {
           "steamId": 3533730,
           "name": "Warhammer 40,000: Boltgun - Words of Vengeance",
-          "copiesSold": 240754,
+          "copiesSold": 241554,
           "price": 0,
           "reviewScore": 88,
           "publisherClass": "Indie",
           "year": 2025
         },
         {
-          "steamId": 3191050,
-          "name": "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT",
-          "copiesSold": 198817,
-          "price": 4.99,
-          "reviewScore": 98,
-          "publisherClass": "Indie",
-          "year": 2025
-        },
-        {
           "steamId": 1328350,
           "name": "Turbo Overkill",
-          "copiesSold": 198627,
+          "copiesSold": 202047,
           "price": 19.99,
           "reviewScore": 94,
           "publisherClass": "Indie",
           "year": 2023
+        },
+        {
+          "steamId": 3191050,
+          "name": "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT",
+          "copiesSold": 199883,
+          "price": 4.99,
+          "reviewScore": 98,
+          "publisherClass": "Indie",
+          "year": 2025
         }
       ],
-      "heatTop10Recent": 6139594,
-      "medianRecentCopies": 342,
+      "heatTop10Recent": 6176255,
+      "medianRecentCopies": 345,
       "medianNote": "mediana z pełnego zbioru taga"
     },
     "Cozy": {
       "tags": [
         "Cozy"
       ],
-      "totalAllTime": 2537,
+      "totalAllTime": 2607,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
@@ -2585,19 +2586,19 @@
         "2017": 9,
         "2018": 10,
         "2019": 16,
-        "2020": 24,
+        "2020": 25,
         "2021": 43,
         "2022": 86,
         "2023": 135,
         "2024": 326,
-        "2025": 564,
-        "2026": 777
+        "2025": 560,
+        "2026": 780
       },
       "topRecent": [
         {
           "steamId": 2707930,
           "name": "Palia",
-          "copiesSold": 4127953,
+          "copiesSold": 4109011,
           "price": 0,
           "reviewScore": 86,
           "publisherClass": "Indie",
@@ -2606,7 +2607,7 @@
         {
           "steamId": 2977660,
           "name": "Cats",
-          "copiesSold": 3147334,
+          "copiesSold": 3137552,
           "price": 0,
           "reviewScore": 80,
           "publisherClass": "Indie",
@@ -2615,7 +2616,7 @@
         {
           "steamId": 2325290,
           "name": "Sky: Children of the Light",
-          "copiesSold": 2515085,
+          "copiesSold": 2546728,
           "price": 0,
           "reviewScore": 87,
           "publisherClass": "Indie",
@@ -2624,7 +2625,7 @@
         {
           "steamId": 4025700,
           "name": "Heartopia",
-          "copiesSold": 1824008,
+          "copiesSold": 1854834,
           "price": 0,
           "reviewScore": 66,
           "publisherClass": "AA",
@@ -2633,7 +2634,7 @@
         {
           "steamId": 3146520,
           "name": "WEBFISHING",
-          "copiesSold": 1404867,
+          "copiesSold": 1406078,
           "price": 4.99,
           "reviewScore": 97,
           "publisherClass": "Indie",
@@ -2642,7 +2643,7 @@
         {
           "steamId": 2198150,
           "name": "Tiny Glade",
-          "copiesSold": 1292090,
+          "copiesSold": 1306123,
           "price": 14.99,
           "reviewScore": 97,
           "publisherClass": "Indie",
@@ -2651,7 +2652,7 @@
         {
           "steamId": 2827560,
           "name": "100 Romantic Cats",
-          "copiesSold": 1179816,
+          "copiesSold": 1185187,
           "price": 0,
           "reviewScore": 95,
           "publisherClass": "Indie",
@@ -2660,7 +2661,7 @@
         {
           "steamId": 2932930,
           "name": "100 Korea Cats",
-          "copiesSold": 935173,
+          "copiesSold": 939246,
           "price": 0,
           "reviewScore": 95,
           "publisherClass": "Indie",
@@ -2669,7 +2670,7 @@
         {
           "steamId": 1118520,
           "name": "Paralives",
-          "copiesSold": 903847,
+          "copiesSold": 915709,
           "price": 39.99,
           "reviewScore": 90,
           "publisherClass": "Indie",
@@ -2678,52 +2679,52 @@
         {
           "steamId": 2408820,
           "name": "Luma Island",
-          "copiesSold": 837894,
+          "copiesSold": 832694,
           "price": 19.99,
           "reviewScore": 84,
           "publisherClass": "Indie",
           "year": 2024
         }
       ],
-      "heatTop10Recent": 18168067,
-      "medianRecentCopies": 1136,
+      "heatTop10Recent": 18233162,
+      "medianRecentCopies": 1179,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "Puzzle": {
       "tags": [
         "Puzzle"
       ],
-      "totalAllTime": 26871,
+      "totalAllTime": 26985,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
         "2006": 6,
         "2007": 10,
-        "2008": 17,
+        "2008": 18,
         "2009": 44,
         "2010": 21,
         "2011": 25,
         "2012": 56,
-        "2013": 68,
-        "2014": 99,
+        "2013": 69,
+        "2014": 100,
         "2015": 96,
-        "2016": 117,
-        "2017": 113,
+        "2016": 118,
+        "2017": 115,
         "2018": 105,
-        "2019": 122,
-        "2020": 155,
-        "2021": 138,
-        "2022": 154,
-        "2023": 152,
-        "2024": 181,
-        "2025": 174,
-        "2026": 145
+        "2019": 121,
+        "2020": 152,
+        "2021": 135,
+        "2022": 153,
+        "2023": 153,
+        "2024": 180,
+        "2025": 172,
+        "2026": 149
       },
       "topRecent": [
         {
           "steamId": 990080,
           "name": "Hogwarts Legacy",
-          "copiesSold": 10363848,
+          "copiesSold": 10414620,
           "price": 59.99,
           "reviewScore": 90,
           "publisherClass": "AAA",
@@ -2732,7 +2733,7 @@
         {
           "steamId": 2835570,
           "name": "Buckshot Roulette",
-          "copiesSold": 8325014,
+          "copiesSold": 8340392,
           "price": 2.99,
           "reviewScore": 95,
           "publisherClass": "Indie",
@@ -2741,7 +2742,7 @@
         {
           "steamId": 3097560,
           "name": "Liar's Bar",
-          "copiesSold": 8120729,
+          "copiesSold": 8160270,
           "price": 6.99,
           "reviewScore": 90,
           "publisherClass": "Indie",
@@ -2750,7 +2751,7 @@
         {
           "steamId": 3478870,
           "name": "GeoGuessr Steam Edition",
-          "copiesSold": 4299992,
+          "copiesSold": 4349572,
           "price": 0,
           "reviewScore": 70,
           "publisherClass": "Indie",
@@ -2759,7 +2760,7 @@
         {
           "steamId": 2527500,
           "name": "MiSide",
-          "copiesSold": 2771552,
+          "copiesSold": 2793978,
           "price": 14.99,
           "reviewScore": 98,
           "publisherClass": "AA",
@@ -2768,7 +2769,7 @@
         {
           "steamId": 2325290,
           "name": "Sky: Children of the Light",
-          "copiesSold": 2515085,
+          "copiesSold": 2546728,
           "price": 0,
           "reviewScore": 87,
           "publisherClass": "Indie",
@@ -2777,7 +2778,7 @@
         {
           "steamId": 668580,
           "name": "Atomic Heart",
-          "copiesSold": 2079688,
+          "copiesSold": 2105751,
           "price": 59.99,
           "reviewScore": 81,
           "publisherClass": "AAA",
@@ -2786,7 +2787,7 @@
         {
           "steamId": 1478500,
           "name": "Big Walk",
-          "copiesSold": 1775257,
+          "copiesSold": 1865353,
           "price": 19.99,
           "reviewScore": 96,
           "publisherClass": "AA",
@@ -2795,7 +2796,7 @@
         {
           "steamId": 4197610,
           "name": "Librarian: Tidy Up the Arcane Library!",
-          "copiesSold": 1637801,
+          "copiesSold": 1654710,
           "price": 5.99,
           "reviewScore": 94,
           "publisherClass": "Indie",
@@ -2804,22 +2805,22 @@
         {
           "steamId": 4128580,
           "name": "BidKing",
-          "copiesSold": 1474918,
+          "copiesSold": 1482289,
           "price": 2.99,
           "reviewScore": 32,
           "publisherClass": "Indie",
           "year": 2026
         }
       ],
-      "heatTop10Recent": 43363884,
-      "medianRecentCopies": 42437,
+      "heatTop10Recent": 43713663,
+      "medianRecentCopies": 43410,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "2D Platformer": {
       "tags": [
         "2D Platformer"
       ],
-      "totalAllTime": 11536,
+      "totalAllTime": 11592,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
@@ -2829,25 +2830,25 @@
         "2011": 4,
         "2012": 10,
         "2013": 14,
-        "2014": 18,
+        "2014": 19,
         "2015": 39,
         "2016": 46,
-        "2017": 44,
+        "2017": 45,
         "2018": 53,
         "2019": 55,
         "2020": 134,
-        "2021": 200,
-        "2022": 262,
-        "2023": 250,
-        "2024": 283,
-        "2025": 302,
-        "2026": 279
+        "2021": 201,
+        "2022": 256,
+        "2023": 249,
+        "2024": 287,
+        "2025": 299,
+        "2026": 282
       },
       "topRecent": [
         {
           "steamId": 2349820,
           "name": "Hero's Land",
-          "copiesSold": 2853158,
+          "copiesSold": 2887057,
           "price": 0,
           "reviewScore": 55,
           "publisherClass": "Indie",
@@ -2856,7 +2857,7 @@
         {
           "steamId": 673750,
           "name": "Super Bunny Man",
-          "copiesSold": 1988808,
+          "copiesSold": 1997291,
           "price": 14.99,
           "reviewScore": 85,
           "publisherClass": "Indie",
@@ -2865,7 +2866,7 @@
         {
           "steamId": 1189490,
           "name": "觅长生",
-          "copiesSold": 1729026,
+          "copiesSold": 1731130,
           "price": 14.99,
           "reviewScore": 93,
           "publisherClass": "Indie",
@@ -2874,7 +2875,7 @@
         {
           "steamId": 2273430,
           "name": "BlazBlue Entropy Effect",
-          "copiesSold": 1457931,
+          "copiesSold": 1471867,
           "price": 19.99,
           "reviewScore": 94,
           "publisherClass": "Indie",
@@ -2883,7 +2884,7 @@
         {
           "steamId": 3609080,
           "name": "StarSavior",
-          "copiesSold": 994997,
+          "copiesSold": 1005822,
           "price": 0,
           "reviewScore": 62,
           "publisherClass": "Indie",
@@ -2892,7 +2893,7 @@
         {
           "steamId": 1416920,
           "name": "Chinese Online Game",
-          "copiesSold": 942398,
+          "copiesSold": 946560,
           "price": 9.99,
           "reviewScore": 86,
           "publisherClass": "Indie",
@@ -2901,7 +2902,7 @@
         {
           "steamId": 2231450,
           "name": "Pizza Tower",
-          "copiesSold": 904190,
+          "copiesSold": 906998,
           "price": 19.99,
           "reviewScore": 98,
           "publisherClass": "Indie",
@@ -2910,7 +2911,7 @@
         {
           "steamId": 1607680,
           "name": "Bread & Fred",
-          "copiesSold": 825665,
+          "copiesSold": 828591,
           "price": 14.99,
           "reviewScore": 77,
           "publisherClass": "Indie",
@@ -2919,7 +2920,7 @@
         {
           "steamId": 1562700,
           "name": "SANABI",
-          "copiesSold": 818169,
+          "copiesSold": 825539,
           "price": 14.99,
           "reviewScore": 97,
           "publisherClass": "AA",
@@ -2928,22 +2929,22 @@
         {
           "steamId": 2114740,
           "name": "Blasphemous 2",
-          "copiesSold": 714954,
+          "copiesSold": 724440,
           "price": 29.99,
           "reviewScore": 91,
           "publisherClass": "AA",
           "year": 2023
         }
       ],
-      "heatTop10Recent": 13229296,
-      "medianRecentCopies": 4172,
+      "heatTop10Recent": 13325295,
+      "medianRecentCopies": 4125,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     },
     "Online Co-Op": {
       "tags": [
         "Online Co-Op"
       ],
-      "totalAllTime": 5593,
+      "totalAllTime": 5646,
       "pulled": 2000,
       "partial": true,
       "releasesPerYear": {
@@ -2954,27 +2955,27 @@
         "2009": 14,
         "2010": 10,
         "2011": 25,
-        "2012": 30,
+        "2012": 29,
         "2013": 41,
         "2014": 47,
-        "2015": 44,
+        "2015": 45,
         "2016": 60,
         "2017": 78,
         "2018": 78,
         "2019": 97,
         "2020": 119,
-        "2021": 122,
-        "2022": 132,
+        "2021": 121,
+        "2022": 129,
         "2023": 213,
-        "2024": 234,
-        "2025": 333,
-        "2026": 311
+        "2024": 232,
+        "2025": 329,
+        "2026": 321
       },
       "topRecent": [
         {
           "steamId": 2767030,
           "name": "Marvel Rivals",
-          "copiesSold": 27697682,
+          "copiesSold": 27563345,
           "price": 0,
           "reviewScore": 75,
           "publisherClass": "AAA",
@@ -2983,61 +2984,61 @@
         {
           "steamId": 1623730,
           "name": "Palworld",
-          "copiesSold": 20716279,
+          "copiesSold": 20765182,
           "price": 29.99,
           "reviewScore": 95,
           "publisherClass": "AA",
           "year": 2026
         },
         {
-          "steamId": 3241660,
-          "name": "R.E.P.O.",
-          "copiesSold": 20398555,
-          "price": 9.99,
-          "reviewScore": 96,
-          "publisherClass": "AA",
-          "year": 2025
-        },
-        {
-          "steamId": 2357570,
-          "name": "Overwatch®",
-          "copiesSold": 19385548,
-          "price": 0,
-          "reviewScore": 32,
-          "publisherClass": "AA",
-          "year": 2023
-        },
-        {
-          "steamId": 3527290,
-          "name": "PEAK",
-          "copiesSold": 19327800,
-          "price": 7.99,
-          "reviewScore": 94,
-          "publisherClass": "AA",
-          "year": 2025
-        },
-        {
-          "steamId": 2073850,
-          "name": "THE FINALS",
-          "copiesSold": 19254324,
-          "price": 0,
-          "reviewScore": 78,
-          "publisherClass": "AA",
-          "year": 2023
-        },
-        {
           "steamId": 2507950,
           "name": "Delta Force",
-          "copiesSold": 18763527,
+          "copiesSold": 20579919,
           "price": 0,
           "reviewScore": 58,
           "publisherClass": "AA",
           "year": 2024
         },
         {
+          "steamId": 3241660,
+          "name": "R.E.P.O.",
+          "copiesSold": 20495902,
+          "price": 9.99,
+          "reviewScore": 96,
+          "publisherClass": "AA",
+          "year": 2025
+        },
+        {
+          "steamId": 3527290,
+          "name": "PEAK",
+          "copiesSold": 19423684,
+          "price": 7.99,
+          "reviewScore": 94,
+          "publisherClass": "AA",
+          "year": 2025
+        },
+        {
+          "steamId": 2357570,
+          "name": "Overwatch®",
+          "copiesSold": 19395625,
+          "price": 0,
+          "reviewScore": 32,
+          "publisherClass": "AA",
+          "year": 2023
+        },
+        {
+          "steamId": 2073850,
+          "name": "THE FINALS",
+          "copiesSold": 19235538,
+          "price": 0,
+          "reviewScore": 78,
+          "publisherClass": "AA",
+          "year": 2023
+        },
+        {
           "steamId": 892970,
           "name": "Valheim",
-          "copiesSold": 17158884,
+          "copiesSold": 17228522,
           "price": 29.99,
           "reviewScore": 94,
           "publisherClass": "AAA",
@@ -3046,7 +3047,7 @@
         {
           "steamId": 1086940,
           "name": "Baldur's Gate 3",
-          "copiesSold": 16917216,
+          "copiesSold": 16998039,
           "price": 59.99,
           "reviewScore": 97,
           "publisherClass": "AAA",
@@ -3055,15 +3056,15 @@
         {
           "steamId": 1966720,
           "name": "Lethal Company",
-          "copiesSold": 16570045,
+          "copiesSold": 16563957,
           "price": 9.99,
           "reviewScore": 97,
           "publisherClass": "AA",
           "year": 2023
         }
       ],
-      "heatTop10Recent": 196189860,
-      "medianRecentCopies": 52310,
+      "heatTop10Recent": 198249713,
+      "medianRecentCopies": 53131,
       "medianNote": "mediana z pobranego topu (partial) — realna mediana jest NIŻSZA"
     }
   },
@@ -3072,7 +3073,7 @@
       {
         "steamId": 714010,
         "name": "Aimlabs",
-        "copiesSold": 29810875,
+        "copiesSold": 30038122,
         "price": 0,
         "reviewScore": 91,
         "publisherClass": "Indie",
@@ -3081,7 +3082,7 @@
       {
         "steamId": 2357570,
         "name": "Overwatch®",
-        "copiesSold": 19385548,
+        "copiesSold": 19395625,
         "price": 0,
         "reviewScore": 32,
         "publisherClass": "AA",
@@ -3090,7 +3091,7 @@
       {
         "steamId": 2073850,
         "name": "THE FINALS",
-        "copiesSold": 19254324,
+        "copiesSold": 19235538,
         "price": 0,
         "reviewScore": 78,
         "publisherClass": "AA",
@@ -3099,7 +3100,7 @@
       {
         "steamId": 1086940,
         "name": "Baldur's Gate 3",
-        "copiesSold": 16917216,
+        "copiesSold": 16998039,
         "price": 59.99,
         "reviewScore": 97,
         "publisherClass": "AAA",
@@ -3108,7 +3109,7 @@
       {
         "steamId": 1966720,
         "name": "Lethal Company",
-        "copiesSold": 16570045,
+        "copiesSold": 16563957,
         "price": 9.99,
         "reviewScore": 97,
         "publisherClass": "AA",
@@ -3117,7 +3118,7 @@
       {
         "steamId": 990080,
         "name": "Hogwarts Legacy",
-        "copiesSold": 10363848,
+        "copiesSold": 10414620,
         "price": 59.99,
         "reviewScore": 90,
         "publisherClass": "AAA",
@@ -3126,7 +3127,7 @@
       {
         "steamId": 1144200,
         "name": "Ready or Not",
-        "copiesSold": 9508480,
+        "copiesSold": 9570359,
         "price": 49.99,
         "reviewScore": 79,
         "publisherClass": "AA",
@@ -3135,7 +3136,7 @@
       {
         "steamId": 1942280,
         "name": "Brotato",
-        "copiesSold": 7797543,
+        "copiesSold": 7813350,
         "price": 4.99,
         "reviewScore": 96,
         "publisherClass": "Indie",
@@ -3144,7 +3145,7 @@
       {
         "steamId": 2551020,
         "name": "One-armed robber",
-        "copiesSold": 7505128,
+        "copiesSold": 7532801,
         "price": 0,
         "reviewScore": 91,
         "publisherClass": "Indie",
@@ -3153,7 +3154,7 @@
       {
         "steamId": 1868140,
         "name": "DAVE THE DIVER",
-        "copiesSold": 7331737,
+        "copiesSold": 7386787,
         "price": 19.99,
         "reviewScore": 96,
         "publisherClass": "AA",
@@ -3162,7 +3163,7 @@
       {
         "steamId": 1468810,
         "name": "鬼谷八荒 Tale of Immortal",
-        "copiesSold": 6661299,
+        "copiesSold": 6656618,
         "price": 19.99,
         "reviewScore": 56,
         "publisherClass": "AA",
@@ -3171,7 +3172,7 @@
       {
         "steamId": 2050650,
         "name": "Resident Evil 4",
-        "copiesSold": 6122257,
+        "copiesSold": 6181039,
         "price": 39.99,
         "reviewScore": 97,
         "publisherClass": "AAA",
@@ -3180,7 +3181,7 @@
       {
         "steamId": 1049590,
         "name": "Eternal Return",
-        "copiesSold": 6090878,
+        "copiesSold": 6034041,
         "price": 0,
         "reviewScore": 77,
         "publisherClass": "AA",
@@ -3189,7 +3190,7 @@
       {
         "steamId": 1260320,
         "name": "Party Animals",
-        "copiesSold": 5985656,
+        "copiesSold": 5997539,
         "price": 19.99,
         "reviewScore": 80,
         "publisherClass": "AA",
@@ -3198,7 +3199,7 @@
       {
         "steamId": 1928420,
         "name": "Farlight 84",
-        "copiesSold": 5041139,
+        "copiesSold": 5105401,
         "price": 0,
         "reviewScore": 76,
         "publisherClass": "Indie",
@@ -3209,7 +3210,7 @@
       {
         "steamId": 2767030,
         "name": "Marvel Rivals",
-        "copiesSold": 27697682,
+        "copiesSold": 27563345,
         "price": 0,
         "reviewScore": 75,
         "publisherClass": "AAA",
@@ -3218,7 +3219,7 @@
       {
         "steamId": 2507950,
         "name": "Delta Force",
-        "copiesSold": 18763527,
+        "copiesSold": 20579919,
         "price": 0,
         "reviewScore": 58,
         "publisherClass": "AA",
@@ -3227,7 +3228,7 @@
       {
         "steamId": 1326470,
         "name": "Sons Of The Forest",
-        "copiesSold": 15843686,
+        "copiesSold": 15930329,
         "price": 29.99,
         "reviewScore": 88,
         "publisherClass": "AA",
@@ -3236,7 +3237,7 @@
       {
         "steamId": 251570,
         "name": "7 Days to Die",
-        "copiesSold": 15588883,
+        "copiesSold": 15603405,
         "price": 44.99,
         "reviewScore": 87,
         "publisherClass": "AA",
@@ -3245,7 +3246,7 @@
       {
         "steamId": 553850,
         "name": "HELLDIVERS™ 2",
-        "copiesSold": 15450891,
+        "copiesSold": 14967603,
         "price": 39.99,
         "reviewScore": 76,
         "publisherClass": "AAA",
@@ -3254,7 +3255,7 @@
       {
         "steamId": 2358720,
         "name": "Black Myth: Wukong",
-        "copiesSold": 14668866,
+        "copiesSold": 14667939,
         "price": 59.99,
         "reviewScore": 96,
         "publisherClass": "AAA",
@@ -3263,7 +3264,7 @@
       {
         "steamId": 2709570,
         "name": "Supermarket Together",
-        "copiesSold": 14476080,
+        "copiesSold": 14542060,
         "price": 0,
         "reviewScore": 94,
         "publisherClass": "Indie",
@@ -3272,7 +3273,7 @@
       {
         "steamId": 2139460,
         "name": "Once Human",
-        "copiesSold": 12576786,
+        "copiesSold": 12573553,
         "price": 0,
         "reviewScore": 79,
         "publisherClass": "AA",
@@ -3281,7 +3282,7 @@
       {
         "steamId": 2567870,
         "name": "Chained Together",
-        "copiesSold": 10440835,
+        "copiesSold": 10505373,
         "price": 4.99,
         "reviewScore": 90,
         "publisherClass": "AA",
@@ -3290,7 +3291,7 @@
       {
         "steamId": 2835570,
         "name": "Buckshot Roulette",
-        "copiesSold": 8325014,
+        "copiesSold": 8340392,
         "price": 2.99,
         "reviewScore": 95,
         "publisherClass": "Indie",
@@ -3299,7 +3300,7 @@
       {
         "steamId": 3097560,
         "name": "Liar's Bar",
-        "copiesSold": 8120729,
+        "copiesSold": 8160270,
         "price": 6.99,
         "reviewScore": 90,
         "publisherClass": "Indie",
@@ -3308,7 +3309,7 @@
       {
         "steamId": 526870,
         "name": "Satisfactory",
-        "copiesSold": 7642143,
+        "copiesSold": 7664397,
         "price": 39.99,
         "reviewScore": 97,
         "publisherClass": "AAA",
@@ -3317,7 +3318,7 @@
       {
         "steamId": 2379780,
         "name": "Balatro",
-        "copiesSold": 6454117,
+        "copiesSold": 6481939,
         "price": 14.99,
         "reviewScore": 98,
         "publisherClass": "AA",
@@ -3326,7 +3327,7 @@
       {
         "steamId": 2074920,
         "name": "The First Descendant",
-        "copiesSold": 6417808,
+        "copiesSold": 6430159,
         "price": 0,
         "reviewScore": 57,
         "publisherClass": "AA",
@@ -3335,7 +3336,7 @@
       {
         "steamId": 2694490,
         "name": "Path of Exile 2",
-        "copiesSold": 6325401,
+        "copiesSold": 6338805,
         "price": 29.99,
         "reviewScore": 75,
         "publisherClass": "AA",
@@ -3346,7 +3347,7 @@
       {
         "steamId": 3241660,
         "name": "R.E.P.O.",
-        "copiesSold": 20398555,
+        "copiesSold": 20495902,
         "price": 9.99,
         "reviewScore": 96,
         "publisherClass": "AA",
@@ -3355,7 +3356,7 @@
       {
         "steamId": 3527290,
         "name": "PEAK",
-        "copiesSold": 19327800,
+        "copiesSold": 19423684,
         "price": 7.99,
         "reviewScore": 94,
         "publisherClass": "AA",
@@ -3364,8 +3365,8 @@
       {
         "steamId": 3240220,
         "name": "Grand Theft Auto V Enhanced",
-        "copiesSold": 15219730,
-        "price": 29.99,
+        "copiesSold": 15355029,
+        "price": 44.99,
         "reviewScore": 83,
         "publisherClass": "AAA",
         "year": 2025
@@ -3373,7 +3374,7 @@
       {
         "steamId": 2807960,
         "name": "Battlefield™ 6",
-        "copiesSold": 10426843,
+        "copiesSold": 10452556,
         "price": 69.99,
         "reviewScore": 64,
         "publisherClass": "AAA",
@@ -3382,7 +3383,7 @@
       {
         "steamId": 3164500,
         "name": "Schedule I",
-        "copiesSold": 8971308,
+        "copiesSold": 9003024,
         "price": 19.99,
         "reviewScore": 98,
         "publisherClass": "AA",
@@ -3391,7 +3392,7 @@
       {
         "steamId": 1808500,
         "name": "ARC Raiders",
-        "copiesSold": 8731588,
+        "copiesSold": 8972094,
         "price": 39.99,
         "reviewScore": 82,
         "publisherClass": "AA",
@@ -3400,7 +3401,7 @@
       {
         "steamId": 1943950,
         "name": "Escape the Backrooms",
-        "copiesSold": 8370617,
+        "copiesSold": 8444331,
         "price": 9.99,
         "reviewScore": 90,
         "publisherClass": "AA",
@@ -3409,7 +3410,7 @@
       {
         "steamId": 3564740,
         "name": "Where Winds Meet",
-        "copiesSold": 7932660,
+        "copiesSold": 7979771,
         "price": 0,
         "reviewScore": 86,
         "publisherClass": "AAA",
@@ -3418,7 +3419,7 @@
       {
         "steamId": 3949040,
         "name": "RV There Yet?",
-        "copiesSold": 7256903,
+        "copiesSold": 7343975,
         "price": 7.99,
         "reviewScore": 90,
         "publisherClass": "Indie",
@@ -3427,7 +3428,7 @@
       {
         "steamId": 513710,
         "name": "SCUM",
-        "copiesSold": 5838740,
+        "copiesSold": 5840534,
         "price": 44.99,
         "reviewScore": 74,
         "publisherClass": "AA",
@@ -3436,7 +3437,7 @@
       {
         "steamId": 2246340,
         "name": "Monster Hunter Wilds",
-        "copiesSold": 5727853,
+        "copiesSold": 5740495,
         "price": 39.99,
         "reviewScore": 50,
         "publisherClass": "AAA",
@@ -3445,7 +3446,7 @@
       {
         "steamId": 1030300,
         "name": "Hollow Knight: Silksong",
-        "copiesSold": 5559546,
+        "copiesSold": 5575055,
         "price": 19.99,
         "reviewScore": 90,
         "publisherClass": "AA",
@@ -3454,7 +3455,7 @@
       {
         "steamId": 3354750,
         "name": "skate.",
-        "copiesSold": 5507156,
+        "copiesSold": 5537529,
         "price": 0,
         "reviewScore": 70,
         "publisherClass": "AAA",
@@ -3463,7 +3464,7 @@
       {
         "steamId": 2943650,
         "name": "FragPunk",
-        "copiesSold": 4869164,
+        "copiesSold": 4899803,
         "price": 0,
         "reviewScore": 74,
         "publisherClass": "AAA",
@@ -3472,7 +3473,7 @@
       {
         "steamId": 2073620,
         "name": "Arena Breakout: Infinite",
-        "copiesSold": 4777821,
+        "copiesSold": 4819213,
         "price": 0,
         "reviewScore": 74,
         "publisherClass": "Indie",
@@ -3483,7 +3484,7 @@
       {
         "steamId": 1623730,
         "name": "Palworld",
-        "copiesSold": 20716279,
+        "copiesSold": 20765182,
         "price": 29.99,
         "reviewScore": 95,
         "publisherClass": "AA",
@@ -3492,7 +3493,7 @@
       {
         "steamId": 892970,
         "name": "Valheim",
-        "copiesSold": 17158884,
+        "copiesSold": 17228522,
         "price": 29.99,
         "reviewScore": 94,
         "publisherClass": "AAA",
@@ -3501,7 +3502,7 @@
       {
         "steamId": 4704690,
         "name": "MECCHA CHAMELEON",
-        "copiesSold": 14372320,
+        "copiesSold": 14399517,
         "price": 5.99,
         "reviewScore": 88,
         "publisherClass": "AA",
@@ -3510,7 +3511,7 @@
       {
         "steamId": 4001890,
         "name": "How to Fish",
-        "copiesSold": 8148857,
+        "copiesSold": 8653937,
         "price": 7.99,
         "reviewScore": 95,
         "publisherClass": "Indie",
@@ -3519,7 +3520,7 @@
       {
         "steamId": 2868840,
         "name": "Slay the Spire 2",
-        "copiesSold": 7342472,
+        "copiesSold": 7376207,
         "price": 24.99,
         "reviewScore": 61,
         "publisherClass": "AA",
@@ -3528,7 +3529,7 @@
       {
         "steamId": 1962700,
         "name": "Subnautica 2",
-        "copiesSold": 4786851,
+        "copiesSold": 4812255,
         "price": 29.99,
         "reviewScore": 91,
         "publisherClass": "AA",
@@ -3537,7 +3538,7 @@
       {
         "steamId": 3892270,
         "name": "Gamble With Your Friends",
-        "copiesSold": 4404570,
+        "copiesSold": 4567531,
         "price": 7.99,
         "reviewScore": 90,
         "publisherClass": "Indie",
@@ -3546,7 +3547,7 @@
       {
         "steamId": 387990,
         "name": "Scrap Mechanic",
-        "copiesSold": 3533538,
+        "copiesSold": 3548716,
         "price": 28.99,
         "reviewScore": 92,
         "publisherClass": "AA",
@@ -3555,25 +3556,34 @@
       {
         "steamId": 1867240,
         "name": "WARDOGS",
-        "copiesSold": 3382768,
+        "copiesSold": 3423654,
         "price": 39.99,
-        "reviewScore": 75,
+        "reviewScore": 74,
         "publisherClass": "AA",
         "year": 2026
       },
       {
         "steamId": 2483190,
         "name": "Forza Horizon 6",
-        "copiesSold": 3218167,
+        "copiesSold": 3249642,
         "price": 69.99,
         "reviewScore": 81,
         "publisherClass": "AAA",
         "year": 2026
       },
       {
+        "steamId": 3393110,
+        "name": "AION 2",
+        "copiesSold": 3180457,
+        "price": 0,
+        "reviewScore": 60,
+        "publisherClass": "AA",
+        "year": 2026
+      },
+      {
         "steamId": 3678970,
         "name": "TBH: Task Bar Hero",
-        "copiesSold": 3123527,
+        "copiesSold": 3139167,
         "price": 0,
         "reviewScore": 54,
         "publisherClass": "Indie",
@@ -3582,7 +3592,7 @@
       {
         "steamId": 3070070,
         "name": "TCG Card Shop Simulator",
-        "copiesSold": 3119594,
+        "copiesSold": 3124892,
         "price": 19.99,
         "reviewScore": 96,
         "publisherClass": "Indie",
@@ -3591,7 +3601,7 @@
       {
         "steamId": 3321460,
         "name": "Crimson Desert Enhanced",
-        "copiesSold": 3060865,
+        "copiesSold": 3066680,
         "price": 69.99,
         "reviewScore": 84,
         "publisherClass": "AA",
@@ -3600,19 +3610,10 @@
       {
         "steamId": 3764200,
         "name": "Resident Evil Requiem",
-        "copiesSold": 2925298,
+        "copiesSold": 2945178,
         "price": 69.99,
         "reviewScore": 96,
         "publisherClass": "AAA",
-        "year": 2026
-      },
-      {
-        "steamId": 686060,
-        "name": "Mewgenics",
-        "copiesSold": 2277736,
-        "price": 29.99,
-        "reviewScore": 90,
-        "publisherClass": "AA",
         "year": 2026
       }
     ]
