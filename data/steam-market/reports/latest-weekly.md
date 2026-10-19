@@ -1,65 +1,65 @@
-# Raport tygodniowy — 2026-10-12
+# Raport tygodniowy — 2026-10-19
 
 ## Tempo sprzedaży komparatorów
 
-Okno: 7 dni (2026-10-05 → 2026-10-12). Szacunek: przyrost recenzji × 35, znormalizowany do tygodnia.
+Okno: 7 dni (2026-10-12 → 2026-10-19). Szacunek: przyrost recenzji × 35, znormalizowany do tygodnia.
 
 | Gra | Δ recenzji | est. sprzedaż/tydzień |
 |---|---:|---:|
-| Balatro | +379 | ~13 197 |
-| Slay the Spire | +255 | ~8879 |
-| Megabonk | +245 | ~8531 |
-| Brotato | +242 | ~8427 |
-| Nine Sols | +231 | ~8044 |
-| CloverPit | +137 | ~4770 |
-| Mechabellum | +84 | ~2925 |
-| The Bazaar | +77 | ~2681 |
-| Nubby's Number Factory | +64 | ~2229 |
-| Animal Well | +44 | ~1532 |
-| Monster Train 2 | +42 | ~1462 |
-| Backpack Battles | +33 | ~1149 |
-| Halls of Torment | +24 | ~836 |
-| Ballionaire | +21 | ~731 |
-| Windblown | +18 | ~627 |
-| Shogun Showdown | +17 | ~592 |
-| Peglin | +16 | ~557 |
-| Tiny Rogues | +16 | ~557 |
-| Super Auto Pets | +14 | ~487 |
-| Path of Achra | +13 | ~453 |
-| Cobalt Core | +12 | ~418 |
-| Luck be a Landlord | +11 | ~383 |
-| Dungeon Clawler | +11 | ~383 |
-| Death Must Die | +9 | ~313 |
-| Slice & Dice | +8 | ~279 |
-| Backpack Hero | +7 | ~244 |
-| Wildfrost | +6 | ~209 |
-| Hero's Hour | +5 | ~174 |
-| Despot's Game | +2 | ~70 |
-| Rift Wizard 2 | +0 | ~0 |
+| Balatro | +283 | ~10 044 |
+| Brotato | +243 | ~8624 |
+| Nine Sols | +229 | ~8127 |
+| Slay the Spire | +186 | ~6601 |
+| Megabonk | +160 | ~5678 |
+| CloverPit | +111 | ~3939 |
+| The Bazaar | +85 | ~3017 |
+| Mechabellum | +49 | ~1739 |
+| Animal Well | +42 | ~1491 |
+| Nubby's Number Factory | +36 | ~1278 |
+| Monster Train 2 | +33 | ~1171 |
+| Halls of Torment | +23 | ~816 |
+| Shogun Showdown | +15 | ~532 |
+| Peglin | +14 | ~497 |
+| Death Must Die | +13 | ~461 |
+| Windblown | +12 | ~426 |
+| Backpack Battles | +11 | ~390 |
+| Ballionaire | +10 | ~355 |
+| Luck be a Landlord | +9 | ~319 |
+| Backpack Hero | +9 | ~319 |
+| Wildfrost | +8 | ~284 |
+| Cobalt Core | +7 | ~248 |
+| Super Auto Pets | +7 | ~248 |
+| Tiny Rogues | +6 | ~213 |
+| Slice & Dice | +4 | ~142 |
+| Despot's Game | +4 | ~142 |
+| Dungeon Clawler | +4 | ~142 |
+| Path of Achra | +3 | ~106 |
+| Hero's Hour | +3 | ~106 |
+| Rift Wizard 2 | +1 | ~35 |
 
 ## Nisze: podaż i ruchy w topie
 
 | Klaster | premiery 2026 | Δ | heat (mln) | Δ heat | nowi w top 10 |
 |---|---:|---:|---:|---:|---|
-| roguelike-deckbuilder | 659 | +14 | 21.5 | +0.10 | — |
-| auto-battler | 581 | +19 | 13.1 | +0.78 | — |
-| action-roguelike | 565 | +9 | 75.1 | +0.47 | — |
-| bullet-heaven | 370 | +10 | 24.5 | +0.08 | — |
-| tactics-roguelite | 406 | +12 | 4.6 | +0.02 | — |
-| metroidvania | 248 | +9 | 10.7 | +0.05 | — |
+| roguelike-deckbuilder | 675 | +16 | 21.7 | +0.22 | — |
+| auto-battler | 598 | +17 | 12.5 | -0.62 | — |
+| action-roguelike | 578 | +13 | 75.3 | +0.27 | — |
+| bullet-heaven | 394 | +24 | 24.6 | +0.07 | — |
+| tactics-roguelite | 413 | +7 | 4.7 | +0.00 | — |
+| metroidvania | 254 | +6 | 10.7 | +0.03 | — |
 
 ## Tło rynku: największe ruchy heat
 
 | Tag | heat (mln) | Δ (mln) |
 |---|---:|---:|
-| Online Co-Op | 198.2 | +2.06 |
-| Extraction Shooter | 66.2 | +1.57 |
-| Psychological Horror | 114.0 | +0.74 |
-| Horror | 128.9 | +0.49 |
-| Idler | 59.9 | +0.42 |
-| Puzzle | 43.7 | +0.35 |
-| Open World Survival Craft | 90.6 | +0.21 |
-| CRPG | 27.6 | +0.19 |
+| Psychological Horror | 91.0 | -22.98 |
+| Extraction Shooter | 63.6 | -2.60 |
+| Online Co-Op | 196.4 | -1.81 |
+| Idler | 60.7 | +0.77 |
+| Action RPG | 71.6 | -0.43 |
+| Puzzle | 44.0 | +0.27 |
+| Horror | 129.1 | +0.21 |
+| Automation | 48.7 | +0.16 |
 
 ---
 *Szacunki względne (Boxleiter ×35); metodologia i pułapki: METHODOLOGY.md.*
