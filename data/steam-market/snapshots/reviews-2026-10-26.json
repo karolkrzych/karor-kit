@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-10-26T11:48:59.917Z",
+  "boxleiterFactor": 35,
+  "games": [
+    {
+      "name": "Balatro",
+      "appid": 2379780,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Slay the Spire",
+      "appid": 646570,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Luck be a Landlord",
+      "appid": 1404850,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Monster Train 2",
+      "appid": 2742830,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Wildfrost",
+      "appid": 1811990,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Cobalt Core",
+      "appid": 2179850,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Shogun Showdown",
+      "appid": 2084000,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Slice & Dice",
+      "appid": 1775490,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Peglin",
+      "appid": 1296610,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Backpack Battles",
+      "appid": 2427700,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Backpack Hero",
+      "appid": 1970580,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Mechabellum",
+      "appid": 669330,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Super Auto Pets",
+      "appid": 1714040,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "The Bazaar",
+      "appid": 1617400,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Despot's Game",
+      "appid": 1227280,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Brotato",
+      "appid": 1942280,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Halls of Torment",
+      "appid": 2218750,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Death Must Die",
+      "appid": 2334730,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Tiny Rogues",
+      "appid": 2088570,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Windblown",
+      "appid": 1911610,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Megabonk",
+      "appid": 3405340,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "CloverPit",
+      "appid": 3314790,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Dungeon Clawler",
+      "appid": 2356780,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Ballionaire",
+      "appid": 2667120,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Nubby's Number Factory",
+      "appid": 3191030,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Path of Achra",
+      "appid": 2128270,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Rift Wizard 2",
+      "appid": 2058570,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Hero's Hour",
+      "appid": 1656780,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Nine Sols",
+      "appid": 1809540,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    },
+    {
+      "name": "Animal Well",
+      "appid": 813230,
+      "error": "SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    }
+  ]
+}
