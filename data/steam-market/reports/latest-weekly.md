@@ -1,8 +1,8 @@
-# Raport tygodniowy — 2026-10-26
+# Raport tygodniowy — 2026-11-02
 
 ## Tempo sprzedaży komparatorów
 
-Okno: 7 dni (2026-10-19 → 2026-10-26). Szacunek: przyrost recenzji × 35, znormalizowany do tygodnia.
+Okno: 7 dni (2026-10-26 → 2026-11-02). Szacunek: przyrost recenzji × 35, znormalizowany do tygodnia.
 
 | Gra | Δ recenzji | est. sprzedaż/tydzień |
 |---|---:|---:|
@@ -11,25 +11,25 @@ Okno: 7 dni (2026-10-19 → 2026-10-26). Szacunek: przyrost recenzji × 35, znor
 
 | Klaster | premiery 2026 | Δ | heat (mln) | Δ heat | nowi w top 10 |
 |---|---:|---:|---:|---:|---|
-| roguelike-deckbuilder | 681 | +6 | 21.7 | -0.05 | — |
-| auto-battler | 614 | +16 | 12.4 | -0.07 | — |
-| action-roguelike | 586 | +8 | 75.7 | +0.31 | — |
-| bullet-heaven | 410 | +16 | 24.7 | +0.06 | — |
-| tactics-roguelite | 415 | +2 | 4.7 | +0.01 | — |
-| metroidvania | 260 | +6 | 10.8 | +0.03 | — |
+| roguelike-deckbuilder | 751 | +70 | 21.8 | +0.08 | — |
+| auto-battler | 679 | +65 | 13.4 | +0.97 | Ark Re:Code |
+| action-roguelike | 611 | +25 | 75.9 | +0.29 | — |
+| bullet-heaven | 467 | +57 | 24.7 | +0.03 | — |
+| tactics-roguelite | 447 | +32 | 4.7 | +0.01 | — |
+| metroidvania | 271 | +11 | 10.8 | +0.05 | FlipWitch - Forbidden Sex Hex |
 
 ## Tło rynku: największe ruchy heat
 
 | Tag | heat (mln) | Δ (mln) |
 |---|---:|---:|
-| Psychological Horror | 113.2 | +22.21 |
-| Action RPG | 72.5 | +0.88 |
-| Idler | 61.4 | +0.67 |
-| Online Co-Op | 197.0 | +0.56 |
-| Puzzle | 44.3 | +0.36 |
-| Horror | 129.4 | +0.31 |
-| Extraction Shooter | 63.9 | +0.28 |
-| Open World Survival Craft | 90.8 | +0.28 |
+| Idler | 62.0 | +0.60 |
+| Horror | 129.9 | +0.54 |
+| Psychological Horror | 113.7 | +0.46 |
+| Online Co-Op | 197.3 | +0.34 |
+| Open World Survival Craft | 90.5 | -0.25 |
+| 2D Platformer | 13.2 | -0.23 |
+| Puzzle | 44.6 | +0.22 |
+| Action RPG | 72.7 | +0.16 |
 
 ---
 *Szacunki względne (Boxleiter ×35); metodologia i pułapki: METHODOLOGY.md.*
